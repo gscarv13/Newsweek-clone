@@ -10,7 +10,10 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="./assets/stylesheet/style.css" />
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
     <title>Newsweek</title>
   </head>
   <body>
@@ -25,40 +28,48 @@
         <button class="btn btn-warning">SUBSCRIBE ></button>
         <span class="material-icons">menu</span>
       </div>
-      
+
       <div class="nav-links">
         <div>
-            <a href="#">U.S.</a>
-            <a href="#">U.S.</a>
-            <a href="#">U.S.</a>
-            <a href="#">U.S.</a>
-            <a href="#">U.S.</a>
-            <a href="#">U.S.</a>
-            <a href="#">U.S.</a>
-            <a href="#">U.S.</a>
-            <a href="#">U.S.</a>
-            <a href="#">U.S.</a>
-            <a href="#">U.S.</a>
-            <i></i>
+          <a href="#">U.S.</a>
+          <a href="#">U.S.</a>
+          <a href="#">U.S.</a>
+          <a href="#">U.S.</a>
+          <a href="#">U.S.</a>
+          <a href="#">U.S.</a>
+          <a href="#">U.S.</a>
+          <a href="#">U.S.</a>
+          <a href="#">U.S.</a>
+          <a href="#">U.S.</a>
+          <a href="#">U.S.</a>
+          <i></i>
         </div>
         <div>
-            <a href="#">TRENDING</a>
-            <a href="#">TRENDING</a>
-            <a href="#">TRENDING</a>
-            <a href="#">TRENDING</a>
-            <a href="#">TRENDING</a>
-            <a href="#">TRENDING</a>
+          <a href="#">TRENDING</a>
+          <a href="#">TRENDING</a>
+          <a href="#">TRENDING</a>
+          <a href="#">TRENDING</a>
+          <a href="#">TRENDING</a>
+          <a href="#">TRENDING</a>
         </div>
       </div>
     </nav>
 
-    <main>
+    <main class="bg-secondary">
       <!-- TOP STORY-->
-      <header class="container-fluid p-3">
+      <header class="bg-white p-3 d-flex justify-content-center flex-column">
         <p class="font-weight-bold text-muted">TOP STORY</p>
-        <div class="position-relative">
-          <img src="./assets/img/top_stories.jpg" class="img-fluid" alt="top_stories"/>
-          <a href="#" class="position-absolute bg-light px-3 font-weight-bold text-danger">POLITICS</a>
+        <div class="position-relative d-flex flex-column">
+          <img
+            src="./assets/img/top_stories.jpg"
+            class="img-fluid w-100 h-100"
+            alt="top_stories"
+          />
+          <a
+            href="#"
+            class="position-absolute bg-light px-3 font-weight-bold text-danger"
+            >POLITICS</a
+          >
         </div>
         <h4 class="font-weight-bold py-3">
           <a href="#" class="text-dark"
@@ -74,15 +85,23 @@
       </header>
 
       <!-- FEATURED STORIES -->
-      <div class="container-fluid p-3">
+      <div class="container-fluid p-3 bg-white mt-4">
         <p class="font-weight-bold text-muted">FEATURED STORIES</p>
 
-        <div>
+        <div class="container-fluid">
           <div class="position-relative">
-            <img src="./assets/img/brandon-bernard.jpg" class="img-fluid" alt="" />
-            <a href="#" class="position-absolute bg-light px-3 font-weight-bold text-danger">U.S.</a>
+            <img
+              src="./assets/img/brandon-bernard.jpg"
+              class="img-fluid w-100 h-100"
+              alt=""
+            />
+            <a
+              href="#"
+              class="position-absolute bg-light px-3 font-weight-bold text-danger"
+              >U.S.</a
+            >
           </div>
-          <h4 class="font-weight-bold py-3"> 
+          <h4 class="font-weight-bold py-3">
             <a href="" class="text-dark"
               >GOP Senate Majority at Risk, Trump Puts His Interests above Party
               Unity</a
@@ -120,7 +139,7 @@
       </div>
 
       <!-- THE DEBATE -->
-      <div class="container-fluid">
+      <div class="container-fluid bg-white mt-4">
         <h5><a href="#" class="text-muted">THE DEBATE</a></h5>
         <div class="d-flex border-top p-3">
           <img src="./assets/img/jonathan-tobin.png" alt="JONATHAN" />
@@ -140,22 +159,29 @@
       </div>
 
       <!-- OPINION -->
-      <div>
-        <div>
-          <img src="" alt="" />
-          <div>
-            <a href="#">Should Trump Concede? Yes</a><br />
-            BY <a href="#">JONATHAN TOBIN</a>
+      <div class="container-fluid bg-white mt-4">
+        <h5><a href="#" class="text-muted">OPINION</a></h5>
+        <div class="d-flex border-top p-2">
+          <img src="./assets/img/arif-ahmed-ross-anderson.png" alt="JONATHAN" />
+          <div class="px-3 font-weight-bold">
+            <a href="#" class="text-dark">A British Court Breaks Gender Fever</a
+            ><br />
+            BY <a href="#" class="text-muted">JONATHAN TOBIN</a>
           </div>
         </div>
       </div>
 
       <!-- MORE STORIES -->
-      <div>
-        <div>
-          <img src="" alt="" />
-          <div>
-            <a href="#"
+      <div class="container-fluid bg-white mt-4">
+        <h5 class="text-muted">MORE STORIES</h5>
+        <div class="d-flex py-4 border-top">
+          <img
+            src="./assets/img/us-pandemic.jpg"
+            class="img-fluid h-25 w-25"
+            alt="us-pandemic"
+          />
+          <div class="px-3">
+            <a href="#" class="text-dark font-weight-bold"
               >With Under 60+ Days Til Nov. 3, Trump is Leading in These States,
               Polls Show</a
             >
@@ -169,42 +195,66 @@
       </div>
 
       <!-- MY TURN SECTION -->
-      <div>
+      <div class="container-fluid bg-white mt-4 p-3">
         <div>
-          <h4>MY TURN</h4>
+          <h5><a href="#" class="text-muted">MY TURN</a></h5>
           <a href="#">
-            <img src="" alt="" />
+            <img
+              src="./assets/img/coronavirus-pandemic-mini-stroke-hospitals.jpg"
+              alt="patient"
+              class="img-fluid w-100 h-100"
+            />
           </a>
-          <a href="#">'I'm a Secret Engagement Ring Buyer for Clueless Guys'</a>
+          <br />
+          <a href="#" class="text-muted font-weight-bold"
+            >'I'm a Secret Engagement Ring Buyer for Clueless Guys'</a
+          >
         </div>
 
         <!-- SUBSCRIBE -->
-        <div>
-          <div>
-            <img src="" alt="" />
-            <h4>START YOUR DAY WITH OUR TOP 5 ARTICLES</h4>
-            <div>
-              <form action="#">
-                <input type="email" required />
-                <input type="submit" />
-              </form>
+        <div class="m-5 px-4 bg-secondary">
+          <div class="row mx-3">
+            <div class="col-2">
+              <img src="./assets/img/favicon-32x32.png" alt="" />
             </div>
+            <div class="col-10">
+              <h5>START YOUR DAY WITH OUR TOP 5 ARTICLES</h5>
+            </div>
+          </div>
+
+          <div class="container-fluid">
+            <form action="#">
+              <input class="w-100 my-2" type="email" required /><br />
+              <button class="btn btn-danger btn-block">FREE SIGN UP ></button>
+            </form>
           </div>
         </div>
       </div>
       <!-- IN MAGAZINE -->
-      <div>
-        <div>
-          <img src="" alt="" />
-          <h4>IN THE MAGAZINE</h4>
+      <div class="container-fluid bg-white mt-4">
+        <div class="d-flex justify-content-center">
+          <img
+            src="./assets/img/favicon-32x32.png"
+            class="img-fluid"
+            alt="logo"
+          />
+          <h4 class="px-3">IN THE MAGAZINE</h4>
         </div>
         <div>
           <div>
-            <img src="" alt="" />
-            <div>
-              <h4><a href="#">DECEMBER 11 ISSUE</a></h4>
+            <div class="py-2 position-relative">
+              <img
+                src="./assets/img/cover-december-04-11-2020.jpg"
+                alt="cover-img"
+                class="w-100 h-100"
+              />
+              <a
+                href="#"
+                class="position-absolute bg-light px-3 mb-2 font-weight-bold text-danger"
+                >DECEMBER 11 ISSUE</a
+              >
             </div>
-            <a href="#">SEE ALL FEATURES ></a>
+            <a href="#" class="btn-block btn-light text-center">SEE ALL FEATURES ></a>
           </div>
 
           <div>
@@ -238,138 +288,210 @@
             </div>
             <h4>
               <a href="#"
-                >There Are 101,190 People Currently Hospitalized with COVID-19 Nationwide</a
+                >There Are 101,190 People Currently Hospitalized with COVID-19
+                Nationwide</a
               >
             </h4>
-            <p>The current number of hospitalizations topped 100,000 this week, as the U.S. also recorded its highest daily case count on record.</p>
+            <p>
+              The current number of hospitalizations topped 100,000 this week,
+              as the U.S. also recorded its highest daily case count on record.
+            </p>
           </div>
         </div>
       </div>
-      
+
       <!-- U.S. Section -->
 
       <div>
         <a href="#">U.S.</a>
         <div>
-            <img src="" alt="">
-            <h4><a href="#">Twitter Jokes That Kelly Loeffler and Ann Coulter Are the Same Person</a></h4>
+          <img src="" alt="" />
+          <h4>
+            <a href="#"
+              >Twitter Jokes That Kelly Loeffler and Ann Coulter Are the Same
+              Person</a
+            >
+          </h4>
         </div>
 
         <div>
-            <img src="" alt="">
-            <div><a href="#">Giuliani at Least 40th Person in Trump Inner Circle to Contract COVID</a></div>
+          <img src="" alt="" />
+          <div>
+            <a href="#"
+              >Giuliani at Least 40th Person in Trump Inner Circle to Contract
+              COVID</a
+            >
+          </div>
         </div>
-     </div>
-     <!-- World section -->
+      </div>
+      <!-- World section -->
       <div>
         <a href="#">U.S.</a>
         <div>
-            <img src="" alt="">
-            <h4><a href="#">Twitter Jokes That Kelly Loeffler and Ann Coulter Are the Same Person</a></h4>
+          <img src="" alt="" />
+          <h4>
+            <a href="#"
+              >Twitter Jokes That Kelly Loeffler and Ann Coulter Are the Same
+              Person</a
+            >
+          </h4>
         </div>
 
         <div>
-            <img src="" alt="">
-            <div><a href="#">Giuliani at Least 40th Person in Trump Inner Circle to Contract COVID</a></div>
+          <img src="" alt="" />
+          <div>
+            <a href="#"
+              >Giuliani at Least 40th Person in Trump Inner Circle to Contract
+              COVID</a
+            >
+          </div>
         </div>
-     </div>
-     <!-- BUSINESS -->
+      </div>
+      <!-- BUSINESS -->
       <div>
         <a href="#">U.S.</a>
         <div>
-            <img src="" alt="">
-            <h4><a href="#">Twitter Jokes That Kelly Loeffler and Ann Coulter Are the Same Person</a></h4>
+          <img src="" alt="" />
+          <h4>
+            <a href="#"
+              >Twitter Jokes That Kelly Loeffler and Ann Coulter Are the Same
+              Person</a
+            >
+          </h4>
         </div>
 
         <div>
-            <img src="" alt="">
-            <div><a href="#">Giuliani at Least 40th Person in Trump Inner Circle to Contract COVID</a></div>
+          <img src="" alt="" />
+          <div>
+            <a href="#"
+              >Giuliani at Least 40th Person in Trump Inner Circle to Contract
+              COVID</a
+            >
+          </div>
         </div>
-     </div>
-     <!-- TECH AND SCIENCE -->
+      </div>
+      <!-- TECH AND SCIENCE -->
       <div>
         <a href="#">U.S.</a>
         <div>
-            <img src="" alt="">
-            <h4><a href="#">Twitter Jokes That Kelly Loeffler and Ann Coulter Are the Same Person</a></h4>
+          <img src="" alt="" />
+          <h4>
+            <a href="#"
+              >Twitter Jokes That Kelly Loeffler and Ann Coulter Are the Same
+              Person</a
+            >
+          </h4>
         </div>
 
         <div>
-            <img src="" alt="">
-            <div><a href="#">Giuliani at Least 40th Person in Trump Inner Circle to Contract COVID</a></div>
+          <img src="" alt="" />
+          <div>
+            <a href="#"
+              >Giuliani at Least 40th Person in Trump Inner Circle to Contract
+              COVID</a
+            >
+          </div>
         </div>
-     </div>
-     <!-- CULTURE -->
+      </div>
+      <!-- CULTURE -->
       <div>
         <a href="#">U.S.</a>
         <div>
-            <img src="" alt="">
-            <h4><a href="#">Twitter Jokes That Kelly Loeffler and Ann Coulter Are the Same Person</a></h4>
+          <img src="" alt="" />
+          <h4>
+            <a href="#"
+              >Twitter Jokes That Kelly Loeffler and Ann Coulter Are the Same
+              Person</a
+            >
+          </h4>
         </div>
 
         <div>
-            <img src="" alt="">
-            <div><a href="#">Giuliani at Least 40th Person in Trump Inner Circle to Contract COVID</a></div>
+          <img src="" alt="" />
+          <div>
+            <a href="#"
+              >Giuliani at Least 40th Person in Trump Inner Circle to Contract
+              COVID</a
+            >
+          </div>
         </div>
-     </div>
-     <!-- SPORTS -->
+      </div>
+      <!-- SPORTS -->
       <div>
         <a href="#">U.S.</a>
         <div>
-            <img src="" alt="">
-            <h4><a href="#">Twitter Jokes That Kelly Loeffler and Ann Coulter Are the Same Person</a></h4>
+          <img src="" alt="" />
+          <h4>
+            <a href="#"
+              >Twitter Jokes That Kelly Loeffler and Ann Coulter Are the Same
+              Person</a
+            >
+          </h4>
         </div>
 
         <div>
-            <img src="" alt="">
-            <div><a href="#">Giuliani at Least 40th Person in Trump Inner Circle to Contract COVID</a></div>
+          <img src="" alt="" />
+          <div>
+            <a href="#"
+              >Giuliani at Least 40th Person in Trump Inner Circle to Contract
+              COVID</a
+            >
+          </div>
         </div>
-     </div>
+      </div>
 
-     <!-- Subscribe + newsletter section -->
-     <div>
-         <div>
-             <h4>SUBSCRIBE</h4>
-             <div>
-                 <img src="" alt="">
-                 <div>
-                     <h5>In-depth Stories You Don't See Elsewhere About Topics You Want to Read!</h5>
-                     <p>All Access + Weekly Delivery.
-                        Choose A Membership That's Perfect for You!</p>
-                        <a href="#">SUBSCRIBE</a>
-                 </div>
-             </div>
-         </div>
-         <div>
-             <div>
-                 <img src="" alt="">
-             </div>
-             <div>
-                 <h5>THE STARTING 5</h5>
-                 <p>See why nearly a quarter of a million subscribers begin their day with the Starting 5.</p>
-                 <form action="#">
-                     <input type="email" required>
-                     <button>FREE SIGN UP ></button>
-                 </form>
-             </div>
-         </div>
+      <!-- Subscribe + newsletter section -->
+      <div>
+        <div>
+          <h4>SUBSCRIBE</h4>
+          <div>
+            <img src="" alt="" />
+            <div>
+              <h5>
+                In-depth Stories You Don't See Elsewhere About Topics You Want
+                to Read!
+              </h5>
+              <p>
+                All Access + Weekly Delivery. Choose A Membership That's Perfect
+                for You!
+              </p>
+              <a href="#">SUBSCRIBE</a>
+            </div>
+          </div>
         </div>
+        <div>
+          <div>
+            <img src="" alt="" />
+          </div>
+          <div>
+            <h5>THE STARTING 5</h5>
+            <p>
+              See why nearly a quarter of a million subscribers begin their day
+              with the Starting 5.
+            </p>
+            <form action="#">
+              <input type="email" required />
+              <button>FREE SIGN UP ></button>
+            </form>
+          </div>
+        </div>
+      </div>
     </main>
     <footer>
-        <a href="#"><img src="" alt=""></a>
-        <p>© 2020 NEWSWEEK DIGITAL LLC</p>
+      <a href="#"><img src="" alt="" /></a>
+      <p>© 2020 NEWSWEEK DIGITAL LLC</p>
+      <div>
+        <a href="#"><i></i></a>
+      </div>
+      <div>
         <div>
-            <a href="#"><i></i></a>
+          Editions:
+          <a href="#">U.S. Edition</a>
         </div>
         <div>
-            <div>
-                Editions:
-                <a href="#">U.S. Edition</a>
-            </div>
-            <div>
-                <a href="#">About Us</a>
-            </div>
+          <a href="#">About Us</a>
         </div>
+      </div>
     </footer>
 
     <script
