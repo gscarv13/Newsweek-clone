@@ -10,19 +10,20 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="./assets/stylesheet/style.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>Newsweek</title>
   </head>
   <body>
     <!-- Navbar -->
     <nav class="conteiner-fluid d-flex">
       <a href="#">
-        <img src="./assets/img/logo.png" alt="Logo" />
+        <img src="./assets/img/logo.png" class="img-fluid" alt="Logo" />
       </a>
 
-      <div>
-        <i></i>
+      <div class="d-flex">
+        <span class="material-icons">person</span>
         <button class="btn btn-warning">SUBSCRIBE ></button>
-        <i></i>
+        <span class="material-icons">menu</span>
       </div>
       
       <div class="nav-links">
@@ -53,18 +54,18 @@
 
     <main>
       <!-- TOP STORY-->
-      <header>
-        <p>TOP STORY</p>
-        <div>
-          <img src="" alt="" />
-          <a href="#">POLITICS</a>
+      <header class="container-fluid p-3">
+        <p class="font-weight-bold text-muted">TOP STORY</p>
+        <div class="position-relative">
+          <img src="./assets/img/top_stories.jpg" class="img-fluid" alt="top_stories"/>
+          <a href="#" class="position-absolute bg-light px-3 font-weight-bold text-danger">POLITICS</a>
         </div>
-        <h2>
-          <a href=""
+        <h4 class="font-weight-bold py-3">
+          <a href="#" class="text-dark"
             >GOP Senate Majority at Risk, Trump Puts His Interests above Party
             Unity</a
           >
-        </h2>
+        </h4>
         <p>
           As the president campaigned for the Republican candidates in Georgia,
           he continued to denounce the party's own officials in the state over
@@ -73,20 +74,20 @@
       </header>
 
       <!-- FEATURED STORIES -->
-      <div>
-        <p>FEATURED STORIES</p>
+      <div class="container-fluid p-3">
+        <p class="font-weight-bold text-muted">FEATURED STORIES</p>
 
         <div>
-          <div>
-            <img src="" alt="" />
-            <a href="#">POLITICS</a>
+          <div class="position-relative">
+            <img src="./assets/img/brandon-bernard.jpg" class="img-fluid" alt="" />
+            <a href="#" class="position-absolute bg-light px-3 font-weight-bold text-danger">U.S.</a>
           </div>
-          <h2>
-            <a href=""
+          <h4 class="font-weight-bold py-3"> 
+            <a href="" class="text-dark"
               >GOP Senate Majority at Risk, Trump Puts His Interests above Party
               Unity</a
             >
-          </h2>
+          </h4>
           <p>
             As the president campaigned for the Republican candidates in
             Georgia, he continued to denounce the party's own officials in the
