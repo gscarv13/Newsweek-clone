@@ -10,20 +10,35 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="./assets/stylesheet/style.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap"
+      rel="stylesheet"
+    />
     <title>Newsweek</title>
   </head>
   <body>
     <!-- Navbar -->
-    <nav class="m-0 p-0 bg-danger container-fluid d-flex justify-content-between">
+    <nav
+      class="m-0 p-0 bg-danger container-fluid d-flex justify-content-between"
+    >
       <a href="#">
         <img src="./assets/img/logo1.png" class="img-fluid" alt="Logo" />
       </a>
 
-      <div class="d-flex">
-        <i class="fa fa-user" aria-hidden="true"></i>
-        <button class="btn btn-warning">SUBSCRIBE ></button>
-        <i class="fa fa-bars" aria-hidden="true"></i>
+      <div class="d-flex align-items-center">
+        <i class="fa fa-user mx-3 text-white" aria-hidden="true"></i>
+        <button
+          class="btn btn-warning badge-pill p-0 px-1 font-weight-bold ff-1"
+        >
+          SUBSCRIBE >
+        </button>
+        <i class="fa fa-bars mx-3 text-white" aria-hidden="true"></i>
       </div>
 
       <div class="nav-links">
@@ -54,7 +69,7 @@
 
     <main class="bg-secondary">
       <!-- TOP STORY-->
-      <header class="bg-white p-3 d-flex justify-content-center flex-column">
+      <header class="bg-white p-3 d-flex justify-content-center flex-column border-bottom">
         <p class="font-weight-bold text-muted">TOP STORY</p>
         <div class="position-relative d-flex flex-column">
           <img
@@ -68,13 +83,13 @@
             >POLITICS</a
           >
         </div>
-        <h4 class="font-weight-bold py-3">
-          <a href="#" class="text-dark"
+        <h4 class="font-weight-bold py-3 m-0">
+          <a href="#" class="text-dark font-weight-bold ff-1"
             >GOP Senate Majority at Risk, Trump Puts His Interests above Party
             Unity</a
           >
         </h4>
-        <p>
+        <p class="ff-2 p-0 m-0">
           As the president campaigned for the Republican candidates in Georgia,
           he continued to denounce the party's own officials in the state over
           his election defeat to President-elect Joe Biden.
@@ -83,9 +98,9 @@
 
       <!-- FEATURED STORIES -->
       <div class="container-fluid p-3 bg-white mt-4">
-        <p class="font-weight-bold text-muted">FEATURED STORIES</p>
+        <p class="font-weight-bold ff-1 section-header">FEATURED STORIES</p>
 
-        <div class="container-fluid">
+        <div class="">
           <div class="position-relative">
             <img
               src="./assets/img/brandon-bernard.jpg"
@@ -99,7 +114,7 @@
             >
           </div>
           <h4 class="font-weight-bold py-3">
-            <a href="" class="text-dark"
+            <a href="" class="text-dark ff-1"
               >GOP Senate Majority at Risk, Trump Puts His Interests above Party
               Unity</a
             >
@@ -111,7 +126,7 @@
           </p>
         </div>
 
-        <div>
+        <!--div>
           <ul class="list-group-flush list-group font-weight-bold">
             <li class="list-group-item px-0">
               <a href="#" class="text-dark"
@@ -132,24 +147,27 @@
               >
             </li>
           </ul>
-        </div>
+        </div-->
       </div>
 
       <!-- THE DEBATE -->
-      <div class="container-fluid bg-white mt-4">
-        <h5><a href="#" class="text-muted">THE DEBATE</a></h5>
+      <div class="container-fluid bg-white mt-4 py-4">
+        <p><a href="#" class="text-muted ff-1 section-header">THE DEBATE</a></p>
         <div class="d-flex border-top p-3">
           <img src="./assets/img/jonathan-tobin.png" alt="JONATHAN" />
           <div class="px-3 font-weight-bold">
-            <a href="#" class="text-dark">Should Trump Concede? Yes</a><br />
-            BY <a href="#" class="text-muted">JONATHAN TOBIN</a>
+            <a href="#" class="text-dark ff-1">Should Trump Concede? Yes</a><br />
+            BY <a href="#" class="text-muted ff-1">JONATHAN TOBIN</a>
           </div>
         </div>
-        <hr />
+        <div class=" position-relative">
+          <p class="position-absolute vs p-2 font-weight-bold text-light">VS</p>
+           <hr class="debate-hr" />
+        </div>
         <div class="d-flex justify-content-between border-bottom p-3">
           <div class="font-weight-bold">
-            <a href="#" class="text-dark">Should Trump Concede? Yes</a><br />
-            BY <a href="#" class="text-muted">SPENCER KLAVAN</a>
+            <a href="#" class="text-dark ff-1">Should Trump Concede? Yes</a><br />
+            BY <a href="#" class="text-muted ff-1">SPENCER KLAVAN</a>
           </div>
           <img src="./assets/img/spencer-klavan.png" alt="spencer-klavan" />
         </div>
@@ -157,7 +175,7 @@
 
       <!-- OPINION -->
       <div class="container-fluid bg-white mt-4">
-        <h5><a href="#" class="text-muted">OPINION</a></h5>
+        <p><a href="#" class="text-muted ff-1 section-header">OPINION</a></p>
         <div class="d-flex border-top p-2">
           <img src="./assets/img/arif-ahmed-ross-anderson.png" alt="JONATHAN" />
           <div class="px-3 font-weight-bold">
@@ -170,7 +188,7 @@
 
       <!-- MORE STORIES -->
       <div class="container-fluid bg-white mt-4">
-        <h5 class="text-muted">MORE STORIES</h5>
+        <p class="text-muted ff-1 section-header">MORE STORIES</p>
         <div class="d-flex py-4 border-top">
           <img
             src="./assets/img/us-pandemic.jpg"
@@ -194,7 +212,7 @@
       <!-- MY TURN SECTION -->
       <div class="container-fluid bg-white mt-4 p-3">
         <div>
-          <h5><a href="#" class="text-muted">MY TURN</a></h5>
+          <p><a href="#" class="text-muted ff-1 section-header">MY TURN</a></p>
           <a href="#">
             <img
               src="./assets/img/coronavirus-pandemic-mini-stroke-hospitals.jpg"
@@ -208,7 +226,7 @@
           >
         </div>
 
-        <!-- SUBSCRIBE -->
+        <!-- SUBSCRIBE BOX -->
         <div class="m-5 px-4 bg-secondary">
           <div class="row mx-3">
             <div class="col-2">
@@ -251,11 +269,16 @@
                 >DECEMBER 11 ISSUE</a
               >
             </div>
-            <a href="#" class="btn-block btn-light text-center">SEE ALL FEATURES ></a>
+            <a href="#" class="btn-block btn-light text-center"
+              >SEE ALL FEATURES ></a
+            >
           </div>
 
           <div>
-            <img src="./assets/img/cover-fe-vaccine-moderna.jpg" alt="moderna" />
+            <img
+              src="./assets/img/cover-fe-vaccine-moderna.jpg"
+              alt="moderna"
+            />
             <div class="d-flex mt-3">
               <h5 class="bg-danger text-white px-2">COVER</h5>
               <a href="#" class="px-3 text-danger font-weight-bold">HEALTH</a>
@@ -272,15 +295,16 @@
 
       <!-- EDITOR'S PICK -->
 
-      <div class="container-fluid bg-white mt-4"> 
+      <div class="container-fluid bg-white mt-4">
         <div class="d-flex justify-content-center">
           <img
             src="./assets/img/favicon-32x32.png"
             class="img-fluid"
-            alt="logo"/>
+            alt="logo"
+          />
           <h4 class="px-3">EDITOR'S PICK</h4>
         </div>
-        <hr>
+        <hr />
         <div class="container-fluid">
           <div class="position-relative">
             <img
@@ -296,10 +320,13 @@
           </div>
           <h4 class="font-weight-bold py-3">
             <a href="" class="text-dark"
-              >Pearl Harbor Day 2020: Photos from the Attack</a>
+              >Pearl Harbor Day 2020: Photos from the Attack</a
+            >
           </h4>
           <p>
-            It's been 79 years since the attack on Pearl Harbor, which brought the United States into World War II. These photos from the battle are a stark reminder of those lost.
+            It's been 79 years since the attack on Pearl Harbor, which brought
+            the United States into World War II. These photos from the battle
+            are a stark reminder of those lost.
           </p>
         </div>
       </div>
@@ -309,16 +336,25 @@
       <div class="container-fluid bg-white mt-4">
         <h4><a href="#" class="text-danger font-weight-bold">U.S.</a></h4>
         <div>
-          <img src="./assets/img/university-arkansas-school-art.jpg" class="img-fluid w-100 h-100" alt="university" />
+          <img
+            src="./assets/img/university-arkansas-school-art.jpg"
+            class="img-fluid w-100 h-100"
+            alt="university"
+          />
           <h4>
             <a href="#" class="text-dark font-weight-bold"
               >Twitter Jokes That Kelly Loeffler and Ann Coulter Are the Same
-              Person</a>
+              Person</a
+            >
           </h4>
         </div>
 
         <div class="d-flex pt-3">
-          <img src="./assets/img/rutgers-university-school-health-professions.jpg" class="w-50 h-50 pr-3" alt="" />
+          <img
+            src="./assets/img/rutgers-university-school-health-professions.jpg"
+            class="w-50 h-50 pr-3"
+            alt=""
+          />
           <div>
             <a href="#" class="text-dark font-weight-bold"
               >Giuliani at Least 40th Person in Trump Inner Circle to Contract
@@ -331,10 +367,15 @@
       <div class="container-fluid bg-white mt-4">
         <h4><a href="#" class="text-danger font-weight-bold">WORLD</a></h4>
         <div>
-          <img src="./assets/img/shameless-season-11-release-date.jpg" class="img-fluid w-100 h-100" alt="university" />
+          <img
+            src="./assets/img/shameless-season-11-release-date.jpg"
+            class="img-fluid w-100 h-100"
+            alt="university"
+          />
           <h4>
             <a href="#" class="text-dark font-weight-bold"
-              >Migrant Worker Fined $3,500 for Breaking Quarantine</a>
+              >Migrant Worker Fined $3,500 for Breaking Quarantine</a
+            >
           </h4>
         </div>
 
@@ -342,7 +383,9 @@
           <img src="./assets/img/monolith.jpg" class="w-50 h-50 pr-3" alt="" />
           <div>
             <a href="#" class="text-dark font-weight-bold"
-              >Monolith Reportedly Found in Colombia Is Latest to Appear Around The World</a>
+              >Monolith Reportedly Found in Colombia Is Latest to Appear Around
+              The World</a
+            >
           </div>
         </div>
       </div>
@@ -350,29 +393,48 @@
       <div class="container-fluid bg-white mt-4">
         <h4><a href="#" class="text-danger font-weight-bold">BUSINESS</a></h4>
         <div>
-          <img src="./assets/img/covid-economic-relief-bill.jpg" class="img-fluid w-100 h-100" alt="university" />
+          <img
+            src="./assets/img/covid-economic-relief-bill.jpg"
+            class="img-fluid w-100 h-100"
+            alt="university"
+          />
           <h4>
             <a href="#" class="text-dark font-weight-bold"
-              >The 10 Best Moves to Make with Your Money Before 2020 Ends</a>
+              >The 10 Best Moves to Make with Your Money Before 2020 Ends</a
+            >
           </h4>
         </div>
 
         <div class="d-flex pt-3">
-          <img src="./assets/img/rudy-giuliani-covid-19-donald-trump-lawyer.jpg" class="w-50 h-50 pr-3" alt="" />
+          <img
+            src="./assets/img/rudy-giuliani-covid-19-donald-trump-lawyer.jpg"
+            class="w-50 h-50 pr-3"
+            alt=""
+          />
           <div>
             <a href="#" class="text-dark font-weight-bold"
-              >Monolith Reportedly Found in Colombia Is Latest to Appear Around The World</a>
+              >Monolith Reportedly Found in Colombia Is Latest to Appear Around
+              The World</a
+            >
           </div>
         </div>
       </div>
       <!-- TECH AND SCIENCE -->
       <div class="container-fluid bg-white mt-4">
-        <h4><a href="#" class="text-danger font-weight-bold">TECH AND SCIENCE</a></h4>
+        <h4>
+          <a href="#" class="text-danger font-weight-bold">TECH AND SCIENCE</a>
+        </h4>
         <div>
-          <img src="./assets/img/president-trump-makes-statement-vaccine-development.jpg" class="img-fluid w-100 h-100" alt="university" />
+          <img
+            src="./assets/img/president-trump-makes-statement-vaccine-development.jpg"
+            class="img-fluid w-100 h-100"
+            alt="university"
+          />
           <h4>
             <a href="#" class="text-dark font-weight-bold"
-              >Biofluorescent Tasmanian Devil Shown Glowing in the Dark in Stunning Photo</a>
+              >Biofluorescent Tasmanian Devil Shown Glowing in the Dark in
+              Stunning Photo</a
+            >
           </h4>
         </div>
 
@@ -380,7 +442,8 @@
           <img src="./assets/img/mink.jpg" class="w-50 h-50 pr-3" alt="" />
           <div>
             <a href="#" class="text-dark font-weight-bold"
-              >COVID-19 Outbreak at Canadian Mink Farm Infects Eight People</a>
+              >COVID-19 Outbreak at Canadian Mink Farm Infects Eight People</a
+            >
           </div>
         </div>
       </div>
@@ -388,10 +451,16 @@
       <div class="container-fluid bg-white mt-4">
         <h4><a href="#" class="text-danger font-weight-bold">CULTURE</a></h4>
         <div>
-          <img src="./assets/img/mitch-mcconnell.jpg" class="img-fluid w-100 h-100" alt="university" />
+          <img
+            src="./assets/img/mitch-mcconnell.jpg"
+            class="img-fluid w-100 h-100"
+            alt="university"
+          />
           <h4>
             <a href="#" class="text-dark font-weight-bold"
-              >See Terrifying Snake Try to Crawl Up a Baby Stroller in Viral Photo</a>
+              >See Terrifying Snake Try to Crawl Up a Baby Stroller in Viral
+              Photo</a
+            >
           </h4>
         </div>
 
@@ -399,7 +468,9 @@
           <img src="./assets/img/money-fan.jpg" class="w-50 h-50 pr-3" alt="" />
           <div>
             <a href="#" class="text-dark font-weight-bold"
-              >Fishermen Tread Water for 15 Hours in Shark-Infested Water After Boat Sinks</a>
+              >Fishermen Tread Water for 15 Hours in Shark-Infested Water After
+              Boat Sinks</a
+            >
           </div>
         </div>
       </div>
@@ -407,10 +478,16 @@
       <div class="container-fluid bg-white mt-4">
         <h4><a href="#" class="text-danger font-weight-bold">SPORTS</a></h4>
         <div>
-          <img src="./assets/img/ohio.jpg" class="img-fluid w-100 h-100" alt="university" />
+          <img
+            src="./assets/img/ohio.jpg"
+            class="img-fluid w-100 h-100"
+            alt="university"
+          />
           <h4>
             <a href="#" class="text-dark font-weight-bold"
-              >What Dana White Has Said about Floyd Mayweather vs Logan Paul Fight</a>
+              >What Dana White Has Said about Floyd Mayweather vs Logan Paul
+              Fight</a
+            >
           </h4>
         </div>
 
@@ -418,7 +495,9 @@
           <img src="./assets/img/moreland.png" class="w-50 h-50 pr-3" alt="" />
           <div>
             <a href="#" class="text-dark font-weight-bold"
-              >Monolith Reportedly Found in Colombia Is Latest to Appear Around The World</a>
+              >Monolith Reportedly Found in Colombia Is Latest to Appear Around
+              The World</a
+            >
           </div>
         </div>
       </div>
@@ -428,9 +507,18 @@
         <div class="text-center bg-white py-4 px-3">
           <h4 class="text-danger text-left px-2 font-weight-bold">SUBSCRIBE</h4>
           <div class="bg-secondary">
-            <div class="position-relative "><br><br><br><br><br><br><br><br><br><br><br>
-            <img src="./assets/img/cover-november-27-2020.jpg" class="position-absolute w-35 cover_a" alt="november"/>
-            <img src="./assets/img/cover-december-04-11-2020.jpg" class="position-absolute w-35 cover_b" alt="december"/>
+            <div class="position-relative">
+              <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+              <img
+                src="./assets/img/cover-november-27-2020.jpg"
+                class="position-absolute w-35 cover_a"
+                alt="november"
+              />
+              <img
+                src="./assets/img/cover-december-04-11-2020.jpg"
+                class="position-absolute w-35 cover_b"
+                alt="december"
+              />
             </div>
             <div>
               <h5>
@@ -447,8 +535,7 @@
         </div>
         <div class="container-fluid text-center bg-white py-4 px-3">
           <h5 class="text-danger text-left">NEWSLETTER</h5>
-          <div class="newsletter hf-1">
-          </div>
+          <div class="newsletter hf-1"></div>
           <div class="text-center p-4 border border-top-0 bg-muted">
             <h5>THE STARTING 5</h5>
             <p>
@@ -464,34 +551,46 @@
       </div>
     </main>
     <footer class="container-fluid bg-white mt-4 text-muted">
-      <a href="#"><img src="./assets/img/logo1.png" class="img-fluid" alt="Logo" /></a>
+      <a href="#"
+        ><img src="./assets/img/logo1.png" class="img-fluid" alt="Logo"
+      /></a>
       <p>© 2020 NEWSWEEK DIGITAL LLC</p>
       <div>
         <div class="d-flex">
-          <h4 class="px-1"><i class="fa fa-facebook-official" aria-hidden="true"></i></h4>
+          <h4 class="px-1">
+            <i class="fa fa-facebook-official" aria-hidden="true"></i>
+          </h4>
           <h4 class="px-1"><i class="fa fa-twitter" aria-hidden="true"></i></h4>
-          <h4 class="px-1"><i class="fa fa-instagram" aria-hidden="true"></i></h4>
+          <h4 class="px-1">
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+          </h4>
           <h4 class="px-1"><i class="fa fa-tumblr" aria-hidden="true"></i></h4>
-          <h4 class="px-1"><i class="fa fa-linkedin" aria-hidden="true"></i></h4>
+          <h4 class="px-1">
+            <i class="fa fa-linkedin" aria-hidden="true"></i>
+          </h4>
         </div>
       </div>
       <div class="border-top pt-2">
         <div class="d-flex justify-content-between">
           Editions:
-          <a class=" text-muted" href="#">U.S. Edition</a>
-          <a class=" text-muted" href="#">日本</a>
-          <a class=" text-muted" href="#">Pakistan</a>
-          <a class=" text-muted" href="#">Polska</a>
-          <a class=" text-muted" href="#">Romania</a>
+          <a class="text-muted" href="#">U.S. Edition</a>
+          <a class="text-muted" href="#">日本</a>
+          <a class="text-muted" href="#">Pakistan</a>
+          <a class="text-muted" href="#">Polska</a>
+          <a class="text-muted" href="#">Romania</a>
         </div>
         <div class="d-flex flex-wrap">
           <a class="text-muted border-right px-2" href="#">About Us</a>
           <a class="text-muted border-right px-2" href="#">Correction</a>
           <a class="text-muted border-right px-2" href="#">Contact Us</a>
-          <a class="text-muted border-right px-2" href="#">Editorial Guidelines</a>
+          <a class="text-muted border-right px-2" href="#"
+            >Editorial Guidelines</a
+          >
           <a class="text-muted border-right px-2" href="#">Advertise</a>
           <a class="text-muted border-right px-2" href="#">Copyright</a>
-          <a class="text-muted border-right px-2" href="#">Terms and Conditions</a>
+          <a class="text-muted border-right px-2" href="#"
+            >Terms and Conditions</a
+          >
           <a class="text-muted border-right px-2" href="#">Privacy Policies</a>
           <a class="text-muted border-right px-2" href="#">Cookie Policies</a>
           <a class="text-muted border-right px-2" href="#">Terms of Sale</a>
