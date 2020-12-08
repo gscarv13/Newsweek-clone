@@ -131,5 +131,23 @@ p{
         grid-area: opinion;
     }
 
+    .magazine {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-row-gap: 15px;
+        grid-column-gap: 30px;
+        padding-top: 10px;
+    }
+
+    .h-md-0 {
+        height: 170px !important;
+    }
+
+    .mag-border {
+        border-bottom: solid 0.5px #d9d9d9;
+        padding-bottom: 10px;
+    }
+
 
 }
