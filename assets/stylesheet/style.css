@@ -93,3 +93,43 @@ p{
 .newsletter{
     background: url('/Newsweek-clone/assets/img/starting5-homepage.png') center center / cover no-repeat;
 }
+
+@media screen and (min-width: 768px){
+    .grid{
+        display: grid;
+        grid-template-areas: 
+        'featured tops'
+        'featured turn'
+        'featured more'
+        'debate debate'
+        'opinion opinion';
+        justify-content: stretch;
+    }
+
+    .FSG{
+        grid-area: featured;
+    }
+    
+    .TSG{
+        grid-area: tops;
+    }
+
+    .MTG{
+        grid-area: turn;
+    }
+
+    .MSG{
+        grid-area: more;
+    }
+
+    .TDG{
+        width: 100%;
+        grid-area: debate;
+    }
+
+    .OPG{
+        grid-area: opinion;
+    }
+
+
+}
