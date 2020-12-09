@@ -69,7 +69,7 @@ p{
     background-color: #000;
     color: #fff;
     border-radius: 100%;
-    left: 220px;
+    left: 45%;
     bottom: -33px;
 }
 
@@ -232,8 +232,13 @@ p{
         width: 45%;
     }
 
-    .nav-desk{
-       height: 180px;
+    .nav-top{
+       height: 84px;
+    }
+    
+    .logo-desk{
+        width: auto;
+        height:60px;
     }
 
 }
