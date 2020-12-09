@@ -185,3 +185,21 @@ p{
 
 
 }
+
+@media screen and (min-width: 992px) {
+    .img-mag {
+        width: auto !important;
+        height: 320px !important;
+    }
+
+    .editor-large {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 2px;
+    }
+
+    .side-menu {
+        width: 650px;
+    }
+}
