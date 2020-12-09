@@ -95,7 +95,7 @@ p{
 }
 
 @media screen and (min-width: 768px){
-    .grid{
+    /* .grid{
         display: grid;
         grid-template-areas: 
         'featured tops'
@@ -129,7 +129,18 @@ p{
 
     .OPG{
         grid-area: opinion;
+    } */
+
+    .left-column{
+        position: sticky;
+        top: 0;
+        bottom: 1000px;
     }
+
+    /* .middle-column{
+        bottom: 0;
+        position: sticky;
+    } */
 
     .magazine {
         display: grid;
