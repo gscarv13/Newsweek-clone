@@ -1,1646 +1,1191 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
-      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="./assets/stylesheet/style.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap"
-      rel="stylesheet"
-    />
-    <title>Newsweek</title>
-  </head>
-  <body>
-    <!-- Navbar -->
-    <nav
-      class="m-0 p-0 bg-danger container-fluid d-flex justify-content-between"
-    >
-      <a href="#">
-        <img src="./assets/img/logo1.png" class="img-fluid" alt="Logo" />
-      </a>
 
-      <div class="d-flex align-items-center">
-        <i class="fa fa-user mx-3 text-white" aria-hidden="true"></i>
-        <button
-          class="btn btn-warning badge-pill p-0 px-1 font-weight-bold ff-1"
-        >
-          SUBSCRIBE >
-        </button>
-        <i class="fa fa-bars mx-3 text-white" aria-hidden="true"></i>
-      </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous" />
+  <link rel="stylesheet" href="./assets/stylesheet/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet" />
+  <title>Newsweek</title>
+</head>
 
-      <div class="nav-links">
-        <div>
-          <a href="#">U.S.</a>
-          <a href="#">U.S.</a>
-          <a href="#">U.S.</a>
-          <a href="#">U.S.</a>
-          <a href="#">U.S.</a>
-          <a href="#">U.S.</a>
-          <a href="#">U.S.</a>
-          <a href="#">U.S.</a>
-          <a href="#">U.S.</a>
-          <a href="#">U.S.</a>
-          <a href="#">U.S.</a>
-          <i></i>
-        </div>
-        <div>
-          <a href="#">TRENDING</a>
-          <a href="#">TRENDING</a>
-          <a href="#">TRENDING</a>
-          <a href="#">TRENDING</a>
-          <a href="#">TRENDING</a>
-          <a href="#">TRENDING</a>
-        </div>
-      </div>
-    </nav>
+<body>
+  <!-- Navbar -->
+  <nav class="m-0 p-0 bg-danger container-fluid d-flex justify-content-between">
+    <a href="#">
+      <img src="./assets/img/logo1.png" class="img-fluid" alt="Logo" />
+    </a>
 
-    <main class="bg-secondary">
-      <!-- TOP STORY-->
-      <div class="grid">
-        <header
-          class="bg-white p-3 d-flex justify-content-center flex-column border-bottom TSG"
-        >
-          <p class="font-weight-bold text-muted">TOP STORY</p>
-          <div class="position-relative d-flex flex-column">
-            <img
-              src="./assets/img/top_stories.jpg"
-              class="img-fluid w-100 h-100"
-              alt="top_stories"
-            />
-            <a
-              href="#"
-              class="position-absolute bg-light px-3 font-weight-bold text-danger"
-              >POLITICS</a
-            >
-          </div>
-          <h4 class="font-weight-bold py-3 m-0">
-            <a href="#" class="text-dark font-weight-bold ff-1"
-              >GOP Senate Majority at Risk, Trump Puts His Interests above Party
-              Unity</a
-            >
-          </h4>
-          <p class="ff-2 p-0 m-0">
-            As the president campaigned for the Republican candidates in
-            Georgia, he continued to denounce the party's own officials in the
-            state over his election defeat to President-elect Joe Biden.
-          </p>
-        </header>
+    <div class="d-flex align-items-center">
+      <i class="fa fa-user mx-3 text-white" aria-hidden="true"></i>
+      <button class="btn btn-warning badge-pill p-0 px-1 font-weight-bold ff-1">
+        SUBSCRIBE >
+      </button>
+      <i class="fa fa-bars mx-3 text-white" aria-hidden="true"></i>
+    </div>
 
-        <!-- FEATURED STORIES -->
-        <div class="container-fluid p-3 bg-white mt-4 FSG">
-          <p class="font-weight-bold ff-1 section-header">FEATURED STORIES</p>
-
-          <div class="">
-            <div class="position-relative">
-              <img
-                src="./assets/img/brandon-bernard.jpg"
-                class="img-fluid w-100 h-100"
-                alt=""
-              />
-              <a
-                href="#"
-                class="position-absolute bg-light px-3 font-weight-bold text-danger"
-                >U.S.</a
-              >
-            </div>
-            <h4 class="font-weight-bold py-3">
-              <a href="" class="text-dark ff-1"
-                >GOP Senate Majority at Risk, Trump Puts His Interests above
-                Party Unity</a
-              >
-            </h4>
-            <p>
-              As the president campaigned for the Republican candidates in
-              Georgia, he continued to denounce the party's own officials in the
-              state over his election defeat to President-elect Joe Biden.
-            </p>
-          </div>
-          <div class="">
-            <div class="position-relative">
-              <img
-                src="./assets/img/brandon-bernard.jpg"
-                class="img-fluid w-100 h-100"
-                alt=""
-              />
-              <a
-                href="#"
-                class="position-absolute bg-light px-3 font-weight-bold text-danger"
-                >U.S.</a
-              >
-            </div>
-            <h4 class="font-weight-bold py-3">
-              <a href="" class="text-dark ff-1"
-                >GOP Senate Majority at Risk, Trump Puts His Interests above
-                Party Unity</a
-              >
-            </h4>
-            <p>
-              As the president campaigned for the Republican candidates in
-              Georgia, he continued to denounce the party's own officials in the
-              state over his election defeat to President-elect Joe Biden.
-            </p>
-          </div>
-          <div class="">
-            <div class="position-relative">
-              <img
-                src="./assets/img/brandon-bernard.jpg"
-                class="img-fluid w-100 h-100"
-                alt=""
-              />
-              <a
-                href="#"
-                class="position-absolute bg-light px-3 font-weight-bold text-danger"
-                >U.S.</a
-              >
-            </div>
-            <h4 class="font-weight-bold py-3">
-              <a href="" class="text-dark ff-1"
-                >GOP Senate Majority at Risk, Trump Puts His Interests above
-                Party Unity</a
-              >
-            </h4>
-            <p>
-              As the president campaigned for the Republican candidates in
-              Georgia, he continued to denounce the party's own officials in the
-              state over his election defeat to President-elect Joe Biden.
-            </p>
-          </div>
-          <div class="">
-            <div class="position-relative">
-              <img
-                src="./assets/img/brandon-bernard.jpg"
-                class="img-fluid w-100 h-100"
-                alt=""
-              />
-              <a
-                href="#"
-                class="position-absolute bg-light px-3 font-weight-bold text-danger"
-                >U.S.</a
-              >
-            </div>
-            <h4 class="font-weight-bold py-3">
-              <a href="" class="text-dark ff-1"
-                >GOP Senate Majority at Risk, Trump Puts His Interests above
-                Party Unity</a
-              >
-            </h4>
-            <p>
-              As the president campaigned for the Republican candidates in
-              Georgia, he continued to denounce the party's own officials in the
-              state over his election defeat to President-elect Joe Biden.
-            </p>
-          </div>
-          <div class="">
-            <div class="position-relative">
-              <img
-                src="./assets/img/brandon-bernard.jpg"
-                class="img-fluid w-100 h-100"
-                alt=""
-              />
-              <a
-                href="#"
-                class="position-absolute bg-light px-3 font-weight-bold text-danger"
-                >U.S.</a
-              >
-            </div>
-            <h4 class="font-weight-bold py-3">
-              <a href="" class="text-dark ff-1"
-                >GOP Senate Majority at Risk, Trump Puts His Interests above
-                Party Unity</a
-              >
-            </h4>
-            <p>
-              As the president campaigned for the Republican candidates in
-              Georgia, he continued to denounce the party's own officials in the
-              state over his election defeat to President-elect Joe Biden.
-            </p>
-          </div>
-        </div>
-
-        <!-- THE DEBATE -->
-        <div class="container-fluid bg-white mt-4 py-4 TDB">
-          <p>
-            <a href="#" class="text-muted ff-1 section-header">THE DEBATE</a>
-          </p>
-          <div class="d-flex border-top p-3">
-            <img src="./assets/img/jonathan-tobin.png" alt="JONATHAN" />
-            <div class="px-3 font-weight-bold">
-              <a href="#" class="text-dark ff-1">Should Trump Concede? Yes</a
-              ><br />
-              BY <a href="#" class="text-muted ff-1">JONATHAN TOBIN</a>
-            </div>
-          </div>
-          <div class="position-relative">
-            <p class="position-absolute vs p-2 font-weight-bold text-light">
-              VS
-            </p>
-            <hr class="debate-hr" />
-          </div>
-          <div class="d-flex justify-content-between border-bottom p-3">
-            <div class="font-weight-bold">
-              <a href="#" class="text-dark ff-1">Should Trump Concede? Yes</a
-              ><br />
-              BY <a href="#" class="text-muted ff-1">SPENCER KLAVAN</a>
-            </div>
-            <img src="./assets/img/spencer-klavan.png" alt="spencer-klavan" />
-          </div>
-        </div>
-
-        <!-- OPINION -->
-        <div class="container-fluid bg-white mt-4 OPG">
-          <p><a href="#" class="text-muted ff-1 section-header">OPINION</a></p>
-          <div class="d-flex border-top p-2">
-            <img
-              src="./assets/img/arif-ahmed-ross-anderson.png"
-              alt="JONATHAN"
-            />
-            <div class="px-3 font-weight-bold">
-              <a href="#" class="text-dark"
-                >A British Court Breaks Gender Fever</a
-              ><br />
-              BY <a href="#" class="text-muted">JONATHAN TOBIN</a>
-            </div>
-          </div>
-          <div class="d-flex border-top p-2">
-            <img
-              src="./assets/img/arif-ahmed-ross-anderson.png"
-              alt="JONATHAN"
-            />
-            <div class="px-3 font-weight-bold">
-              <a href="#" class="text-dark"
-                >A British Court Breaks Gender Fever</a
-              ><br />
-              BY <a href="#" class="text-muted">JONATHAN TOBIN</a>
-            </div>
-          </div>
-          <div class="d-flex border-top p-2">
-            <img
-              src="./assets/img/arif-ahmed-ross-anderson.png"
-              alt="JONATHAN"
-            />
-            <div class="px-3 font-weight-bold">
-              <a href="#" class="text-dark"
-                >A British Court Breaks Gender Fever</a
-              ><br />
-              BY <a href="#" class="text-muted">JONATHAN TOBIN</a>
-            </div>
-          </div>
-          <div class="d-flex border-top p-2">
-            <img
-              src="./assets/img/arif-ahmed-ross-anderson.png"
-              alt="JONATHAN"
-            />
-            <div class="px-3 font-weight-bold">
-              <a href="#" class="text-dark"
-                >A British Court Breaks Gender Fever</a
-              ><br />
-              BY <a href="#" class="text-muted">JONATHAN TOBIN</a>
-            </div>
-          </div>
-          <div class="d-flex border-top p-2">
-            <img
-              src="./assets/img/arif-ahmed-ross-anderson.png"
-              alt="JONATHAN"
-            />
-            <div class="px-3 font-weight-bold">
-              <a href="#" class="text-dark"
-                >A British Court Breaks Gender Fever</a
-              ><br />
-              BY <a href="#" class="text-muted">JONATHAN TOBIN</a>
-            </div>
-          </div>
-          <div class="d-flex border-top p-2">
-            <img
-              src="./assets/img/arif-ahmed-ross-anderson.png"
-              alt="JONATHAN"
-            />
-            <div class="px-3 font-weight-bold">
-              <a href="#" class="text-dark"
-                >A British Court Breaks Gender Fever</a
-              ><br />
-              BY <a href="#" class="text-muted">JONATHAN TOBIN</a>
-            </div>
-          </div>
-          <div class="d-flex border-top p-2">
-            <img
-              src="./assets/img/arif-ahmed-ross-anderson.png"
-              alt="JONATHAN"
-            />
-            <div class="px-3 font-weight-bold">
-              <a href="#" class="text-dark"
-                >A British Court Breaks Gender Fever</a
-              ><br />
-              BY <a href="#" class="text-muted">JONATHAN TOBIN</a>
-            </div>
-          </div>
-        </div>
-
-        <!-- MORE STORIES -->
-        <div class="container-fluid bg-white mt-4 pt-3 border-bottom MSG">
-          <p class="text-muted ff-1 section-header">MORE STORIES</p>
-          <div class="d-flex py-2 border-top">
-            <img
-              src="./assets/img/us-pandemic.jpg"
-              class="img-fluid h-25 w-25"
-              alt="us-pandemic"
-            />
-            <div class="px-3">
-              <p class="lh">
-                <a href="#" class="text-dark font-weight-bold ff-1"
-                  >With Under 60+ Days Til Nov. 3, Trump is Leading in These
-                  States, Polls Show</a
-                >
-              </p>
-              <p class="ms-p">
-                According to statistics available on polling website
-                FiveThirtyEight, Trump is pulling in the strongest numbers in
-                Alabama and Oklahoma, both considered to be red states.
-              </p>
-            </div>
-          </div>
-          <div class="d-flex py-2 border-top">
-            <img
-              src="./assets/img/us-pandemic.jpg"
-              class="img-fluid h-25 w-25"
-              alt="us-pandemic"
-            />
-            <div class="px-3">
-              <p class="lh">
-                <a href="#" class="text-dark font-weight-bold ff-1"
-                  >With Under 60+ Days Til Nov. 3, Trump is Leading in These
-                  States, Polls Show</a
-                >
-              </p>
-              <p class="ms-p">
-                According to statistics available on polling website
-                FiveThirtyEight, Trump is pulling in the strongest numbers in
-                Alabama and Oklahoma, both considered to be red states.
-              </p>
-            </div>
-          </div>
-          <div class="d-flex py-2 border-top">
-            <img
-              src="./assets/img/us-pandemic.jpg"
-              class="img-fluid h-25 w-25"
-              alt="us-pandemic"
-            />
-            <div class="px-3">
-              <p class="lh">
-                <a href="#" class="text-dark font-weight-bold ff-1"
-                  >With Under 60+ Days Til Nov. 3, Trump is Leading in These
-                  States, Polls Show</a
-                >
-              </p>
-              <p class="ms-p">
-                According to statistics available on polling website
-                FiveThirtyEight, Trump is pulling in the strongest numbers in
-                Alabama and Oklahoma, both considered to be red states.
-              </p>
-            </div>
-          </div>
-          <div class="d-flex py-2 border-top">
-            <img
-              src="./assets/img/us-pandemic.jpg"
-              class="img-fluid h-25 w-25"
-              alt="us-pandemic"
-            />
-            <div class="px-3">
-              <p class="lh">
-                <a href="#" class="text-dark font-weight-bold ff-1"
-                  >With Under 60+ Days Til Nov. 3, Trump is Leading in These
-                  States, Polls Show</a
-                >
-              </p>
-              <p class="ms-p">
-                According to statistics available on polling website
-                FiveThirtyEight, Trump is pulling in the strongest numbers in
-                Alabama and Oklahoma, both considered to be red states.
-              </p>
-            </div>
-          </div>
-          <div class="d-flex py-2 border-top">
-            <img
-              src="./assets/img/us-pandemic.jpg"
-              class="img-fluid h-25 w-25"
-              alt="us-pandemic"
-            />
-            <div class="px-3">
-              <p class="lh">
-                <a href="#" class="text-dark font-weight-bold ff-1"
-                  >With Under 60+ Days Til Nov. 3, Trump is Leading in These
-                  States, Polls Show</a
-                >
-              </p>
-              <p class="ms-p">
-                According to statistics available on polling website
-                FiveThirtyEight, Trump is pulling in the strongest numbers in
-                Alabama and Oklahoma, both considered to be red states.
-              </p>
-            </div>
-          </div>
-          <div class="d-flex py-2 border-top">
-            <img
-              src="./assets/img/us-pandemic.jpg"
-              class="img-fluid h-25 w-25"
-              alt="us-pandemic"
-            />
-            <div class="px-3">
-              <p class="lh">
-                <a href="#" class="text-dark font-weight-bold ff-1"
-                  >With Under 60+ Days Til Nov. 3, Trump is Leading in These
-                  States, Polls Show</a
-                >
-              </p>
-              <p class="ms-p">
-                According to statistics available on polling website
-                FiveThirtyEight, Trump is pulling in the strongest numbers in
-                Alabama and Oklahoma, both considered to be red states.
-              </p>
-            </div>
-          </div>
-          <div class="d-flex py-2 border-top">
-            <img
-              src="./assets/img/us-pandemic.jpg"
-              class="img-fluid h-25 w-25"
-              alt="us-pandemic"
-            />
-            <div class="px-3">
-              <p class="lh">
-                <a href="#" class="text-dark font-weight-bold ff-1"
-                  >With Under 60+ Days Til Nov. 3, Trump is Leading in These
-                  States, Polls Show</a
-                >
-              </p>
-              <p class="ms-p">
-                According to statistics available on polling website
-                FiveThirtyEight, Trump is pulling in the strongest numbers in
-                Alabama and Oklahoma, both considered to be red states.
-              </p>
-            </div>
-          </div>
-          <div class="d-flex py-2 border-top">
-            <img
-              src="./assets/img/us-pandemic.jpg"
-              class="img-fluid h-25 w-25"
-              alt="us-pandemic"
-            />
-            <div class="px-3">
-              <p class="lh">
-                <a href="#" class="text-dark font-weight-bold ff-1"
-                  >With Under 60+ Days Til Nov. 3, Trump is Leading in These
-                  States, Polls Show</a
-                >
-              </p>
-              <p class="ms-p">
-                According to statistics available on polling website
-                FiveThirtyEight, Trump is pulling in the strongest numbers in
-                Alabama and Oklahoma, both considered to be red states.
-              </p>
-            </div>
-          </div>
-          <div class="d-flex py-2 border-top">
-            <img
-              src="./assets/img/us-pandemic.jpg"
-              class="img-fluid h-25 w-25"
-              alt="us-pandemic"
-            />
-            <div class="px-3">
-              <p class="lh">
-                <a href="#" class="text-dark font-weight-bold ff-1"
-                  >With Under 60+ Days Til Nov. 3, Trump is Leading in These
-                  States, Polls Show</a
-                >
-              </p>
-              <p class="ms-p">
-                According to statistics available on polling website
-                FiveThirtyEight, Trump is pulling in the strongest numbers in
-                Alabama and Oklahoma, both considered to be red states.
-              </p>
-            </div>
-          </div>
-          <div class="d-flex py-2 border-top">
-            <img
-              src="./assets/img/us-pandemic.jpg"
-              class="img-fluid h-25 w-25"
-              alt="us-pandemic"
-            />
-            <div class="px-3">
-              <p class="lh">
-                <a href="#" class="text-dark font-weight-bold ff-1"
-                  >With Under 60+ Days Til Nov. 3, Trump is Leading in These
-                  States, Polls Show</a
-                >
-              </p>
-              <p class="ms-p">
-                According to statistics available on polling website
-                FiveThirtyEight, Trump is pulling in the strongest numbers in
-                Alabama and Oklahoma, both considered to be red states.
-              </p>
-            </div>
-          </div>
-          <div class="d-flex py-2 border-top">
-            <img
-              src="./assets/img/us-pandemic.jpg"
-              class="img-fluid h-25 w-25"
-              alt="us-pandemic"
-            />
-            <div class="px-3">
-              <p class="lh">
-                <a href="#" class="text-dark font-weight-bold ff-1"
-                  >With Under 60+ Days Til Nov. 3, Trump is Leading in These
-                  States, Polls Show</a
-                >
-              </p>
-              <p class="ms-p">
-                According to statistics available on polling website
-                FiveThirtyEight, Trump is pulling in the strongest numbers in
-                Alabama and Oklahoma, both considered to be red states.
-              </p>
-            </div>
-          </div>
-          <div class="d-flex py-2 border-top">
-            <img
-              src="./assets/img/us-pandemic.jpg"
-              class="img-fluid h-25 w-25"
-              alt="us-pandemic"
-            />
-            <div class="px-3">
-              <p class="lh">
-                <a href="#" class="text-dark font-weight-bold ff-1"
-                  >With Under 60+ Days Til Nov. 3, Trump is Leading in These
-                  States, Polls Show</a
-                >
-              </p>
-              <p class="ms-p">
-                According to statistics available on polling website
-                FiveThirtyEight, Trump is pulling in the strongest numbers in
-                Alabama and Oklahoma, both considered to be red states.
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <!-- MY TURN SECTION -->
-        <div class="container-fluid bg-white mt-4 p-3 MTG">
-          <div class="row">
-            <p class="col-md-12"><a href="#" class="text-muted ff-1 section-header">MY TURN</a></p>
-          </div>
-          <div class="row">
-          <div class="pb-3 col-md-4">
-            <a href="#">
-              <img
-                src="./assets/img/coronavirus-pandemic-mini-stroke-hospitals.jpg"
-                alt="patient"
-                class="img-fluid w-100 h-100 pb-3"
-              />
-            </a>
-            <br />
-            <a href="#" class="text-muted font-weight-bold ff-1"
-              >'I'm a Secret Engagement Ring Buyer for Clueless Guys'</a
-            >
-          </div>
-          <div class="pb-3 col-md-4">
-            <a href="#">
-              <img
-                src="./assets/img/coronavirus-pandemic-mini-stroke-hospitals.jpg"
-                alt="patient"
-                class="img-fluid w-100 h-100 pb-3"
-              />
-            </a>
-            <br />
-            <a href="#" class="text-muted font-weight-bold ff-1"
-              >'I'm a Secret Engagement Ring Buyer for Clueless Guys'</a
-            >
-          </div>
-          <div class="pb-3 col-md-4">
-            <a href="#">
-              <img
-                src="./assets/img/coronavirus-pandemic-mini-stroke-hospitals.jpg"
-                alt="patient"
-                class="img-fluid w-100 h-100 pb-3"
-              />
-            </a>
-            <br />
-            <a href="#" class="text-muted font-weight-bold ff-1"
-              >'I'm a Secret Engagement Ring Buyer for Clueless Guys'</a
-            >
-          </div>
-        </div>
-        <div class="row">
-          <p class="col-md-12">
-            <a href="#" class="text-muted ff-1 section-header"
-              >CULTURE & TRAVEL</a
-            >
-          </p>
-        </div>
-        <div class="row">
-          <div class="pb-3 col-md-4">
-            <div class="position-relative">
-              <a href="#">
-                <img
-                  src="./assets/img/36-dominican-republic.jpg"
-                  alt="patient"
-                  class="img-fluid w-100 h-100 pb-3"
-                />
-              </a>
-              <a
-                href="#"
-                class="position-absolute bg-secondary px-2 font-weight-bold text-dark ff-1"
-                >TRAVEL</a
-              >
-            </div>
-            <br />
-            <a href="#" class="text-muted font-weight-bold ff-1"
-              >'I'm a Secret Engagement Ring Buyer for Clueless Guys'</a
-            >
-          </div>
-          <div class="pb-3 col-md-4">
-            <div class="position-relative">
-              <a href="#">
-                <img
-                  src="./assets/img/36-dominican-republic.jpg"
-                  alt="patient"
-                  class="img-fluid w-100 h-100 pb-3"
-                />
-              </a>
-              <a
-                href="#"
-                class="position-absolute bg-secondary px-2 font-weight-bold text-dark ff-1"
-                >TRAVEL</a
-              >
-            </div>
-            <br />
-            <a href="#" class="text-muted font-weight-bold ff-1"
-              >'I'm a Secret Engagement Ring Buyer for Clueless Guys'</a
-            >
-          </div>
-          <div class="pb-3 col-md-4">
-            <div class="position-relative">
-              <a href="#">
-                <img
-                  src="./assets/img/36-dominican-republic.jpg"
-                  alt="patient"
-                  class="img-fluid w-100 h-100 pb-3"
-                />
-              </a>
-              <a
-                href="#"
-                class="position-absolute bg-secondary px-2 font-weight-bold text-dark ff-1"
-                >TRAVEL</a
-              >
-            </div>
-            <br />
-            <a href="#" class="text-muted font-weight-bold ff-1"
-              >'I'm a Secret Engagement Ring Buyer for Clueless Guys'</a
-            >
-          </div>
-        </div>
-
-          <!-- SUBSCRIBE BOX -->
-          <div class="m-5 px-4 bg-light border py-3">
-            <div class="mx-3 d-flex align-items-center">
-              <div class="pb-2">
-                <img src="./assets/img/favicon-32x32.png" alt="" />
-              </div>
-              <div>
-                <h5 class="ff-1 pl-2">
-                  START YOUR DAY WITH OUR TOP 5 ARTICLES
-                </h5>
-              </div>
-            </div>
-
-            <div class="container-fluid">
-              <form action="#">
-                <input class="w-100 my-2" type="email" required /><br />
-                <button class="btn btn-danger btn-block">FREE SIGN UP ></button>
-              </form>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- IN MAGAZINE -->
-      <div class="container-fluid bg-white mt-4 pt-4 border-bottom">
-        <div class="d-flex justify-content-center mag-border">
-          <img
-            src="./assets/img/favicon-32x32.png"
-            class="img-fluid"
-            alt="logo"
-          />
-          <h4 class="px-3 ff-1 ">IN THE MAGAZINE</h4>
-        </div>
-        <div class="magazine">
-          <div>
-            <div class="py-2 position-relative">
-              <img
-                src="./assets/img/cover-december-04-11-2020.jpg"
-                alt="cover-img"
-                class="w-100 h-100"
-              />
-              <a
-                href="#"
-                class="position-absolute bg-light px-3 mb-2 font-weight-bold text-danger ff-1"
-                >DECEMBER 11 ISSUE</a
-              >
-            </div>
-            <a href="#" class="btn-block btn-light text-center ff-1 py-2"
-              >SEE ALL FEATURES ></a
-            >
-          </div>
-
-          <div>
-            <img
-              src="./assets/img/cover-fe-vaccine-moderna.jpg"
-              class="img-fluid w-100 h-100 h-md-0"
-              alt="moderna"
-            />
-            <div class="d-flex mt-3">
-              <h5 class="bg-danger text-white px-2 ff-1">COVER</h5>
-              <a href="#" class="px-3 text-danger font-weight-bold">HEALTH</a>
-            </div>
-            <h5>
-              <a href="#" class="text-dark ff-1"
-                >Vaccines Won't Stop the Pandemic Until 50 Million US Skeptics
-                Embrace Them</a
-              >
-            </h5>
-          </div>
-          <div>
-            <img
-              src="./assets/img/cover-fe-vaccine-moderna.jpg"
-              class="img-fluid w-100 h-100 h-md-0"
-              alt="moderna"
-            />
-            <div class="d-flex mt-3">
-              <h5 class="bg-danger text-white px-2 ff-1">COVER</h5>
-              <a href="#" class="px-3 text-danger font-weight-bold">HEALTH</a>
-            </div>
-            <h5>
-              <a href="#" class="text-dark ff-1"
-                >Vaccines Won't Stop the Pandemic Until 50 Million US Skeptics
-                Embrace Them</a
-              >
-            </h5>
-          </div>
-          <div>
-            <img
-              src="./assets/img/cover-fe-vaccine-moderna.jpg"
-              class="img-fluid w-100 h-100 h-md-0"
-              alt="moderna"
-            />
-            <div class="d-flex mt-3">
-              <h5 class="bg-danger text-white px-2 ff-1">COVER</h5>
-              <a href="#" class="px-3 text-danger font-weight-bold">HEALTH</a>
-            </div>
-            <h5>
-              <a href="#" class="text-dark ff-1"
-                >Vaccines Won't Stop the Pandemic Until 50 Million US Skeptics
-                Embrace Them</a
-              >
-            </h5>
-          </div>
-          <div>
-            <img
-              src="./assets/img/cover-fe-vaccine-moderna.jpg"
-              class="img-fluid w-100 h-100 h-md-0"
-              alt="moderna"
-            />
-            <div class="d-flex mt-3">
-              <h5 class="bg-danger text-white px-2 ff-1">COVER</h5>
-              <a href="#" class="px-3 text-danger font-weight-bold">HEALTH</a>
-            </div>
-            <h5>
-              <a href="#" class="text-dark ff-1"
-                >Vaccines Won't Stop the Pandemic Until 50 Million US Skeptics
-                Embrace Them</a
-              >
-            </h5>
-          </div>
-          <div>
-            <img
-              src="./assets/img/cover-fe-vaccine-moderna.jpg"
-              class="img-fluid w-100 h-100 h-md-0"
-              alt="moderna"
-            />
-            <div class="d-flex mt-3">
-              <h5 class="bg-danger text-white px-2 ff-1">COVER</h5>
-              <a href="#" class="px-3 text-danger font-weight-bold">HEALTH</a>
-            </div>
-            <h5>
-              <a href="#" class="text-dark ff-1"
-                >Vaccines Won't Stop the Pandemic Until 50 Million US Skeptics
-                Embrace Them</a
-              >
-            </h5>
-          </div>
-          <div>
-            <img
-              src="./assets/img/cover-fe-vaccine-moderna.jpg"
-              class="img-fluid w-100 h-100 h-md-0"
-              alt="moderna"
-            />
-            <div class="d-flex mt-3">
-              <h5 class="bg-danger text-white px-2 ff-1">COVER</h5>
-              <a href="#" class="px-3 text-danger font-weight-bold">HEALTH</a>
-            </div>
-            <h5>
-              <a href="#" class="text-dark ff-1"
-                >Vaccines Won't Stop the Pandemic Until 50 Million US Skeptics
-                Embrace Them</a
-              >
-            </h5>
-          </div>
-        </div>
-      </div>
-
-      <!-- EDITOR'S PICK -->
-
-      <div class="container-fluid bg-white mt-4 pt-4">
-        <div class="d-flex justify-content-center">
-          <img
-            src="./assets/img/favicon-32x32.png"
-            class="img-fluid"
-            alt="logo"
-          />
-          <h4 class="px-3 ff-1">EDITOR'S PICK</h4>
-        </div>
-        <hr />
-        <div class="editor">
-        <div class="container-fluid py-3">
-          <div class="position-relative">
-            <img
-              src="./assets/img/pearl-harbor-uss-nevada.jpg"
-              class="img-fluid w-100 h-100"
-              alt="pearl-harbor"
-            />
-            <a
-              href="#"
-              class="position-absolute bg-light px-3 font-weight-bold text-danger ff-1"
-              >CULTURE</a
-            >
-          </div>
-          <h4 class="font-weight-bold py-3 ff-1 m-0 p-0">
-            <a href="" class="text-dark"
-              >Pearl Harbor Day 2020: Photos from the Attack</a
-            >
-          </h4>
-          <p>
-            It's been 79 years since the attack on Pearl Harbor, which brought
-            the United States into World War II. These photos from the battle
-            are a stark reminder of those lost.
-          </p>
-        </div>
-        <div class="container-fluid py-3">
-          <div class="position-relative">
-            <img
-              src="./assets/img/pearl-harbor-uss-nevada.jpg"
-              class="img-fluid w-100 h-100"
-              alt="pearl-harbor"
-            />
-            <a
-              href="#"
-              class="position-absolute bg-light px-3 font-weight-bold text-danger ff-1"
-              >CULTURE</a
-            >
-          </div>
-          <h4 class="font-weight-bold py-3 ff-1 m-0 p-0">
-            <a href="" class="text-dark"
-              >Pearl Harbor Day 2020: Photos from the Attack</a
-            >
-          </h4>
-          <p>
-            It's been 79 years since the attack on Pearl Harbor, which brought
-            the United States into World War II. These photos from the battle
-            are a stark reminder of those lost.
-          </p>
-        </div>
-        <div class="container-fluid py-3">
-          <div class="position-relative">
-            <img
-              src="./assets/img/pearl-harbor-uss-nevada.jpg"
-              class="img-fluid w-100 h-100"
-              alt="pearl-harbor"
-            />
-            <a
-              href="#"
-              class="position-absolute bg-light px-3 font-weight-bold text-danger ff-1"
-              >CULTURE</a
-            >
-          </div>
-          <h4 class="font-weight-bold py-3 ff-1 m-0 p-0">
-            <a href="" class="text-dark"
-              >Pearl Harbor Day 2020: Photos from the Attack</a
-            >
-          </h4>
-          <p>
-            It's been 79 years since the attack on Pearl Harbor, which brought
-            the United States into World War II. These photos from the battle
-            are a stark reminder of those lost.
-          </p>
-        </div>
-        <div class="container-fluid py-3">
-          <div class="position-relative">
-            <img
-              src="./assets/img/pearl-harbor-uss-nevada.jpg"
-              class="img-fluid w-100 h-100"
-              alt="pearl-harbor"
-            />
-            <a
-              href="#"
-              class="position-absolute bg-light px-3 font-weight-bold text-danger ff-1"
-              >CULTURE</a
-            >
-          </div>
-          <h4 class="font-weight-bold py-3 ff-1 m-0 p-0">
-            <a href="" class="text-dark"
-              >Pearl Harbor Day 2020: Photos from the Attack</a
-            >
-          </h4>
-          <p>
-            It's been 79 years since the attack on Pearl Harbor, which brought
-            the United States into World War II. These photos from the battle
-            are a stark reminder of those lost.
-          </p>
-        </div>
-        <div class="container-fluid py-3">
-          <div class="position-relative">
-            <img
-              src="./assets/img/pearl-harbor-uss-nevada.jpg"
-              class="img-fluid w-100 h-100"
-              alt="pearl-harbor"
-            />
-            <a
-              href="#"
-              class="position-absolute bg-light px-3 font-weight-bold text-danger ff-1"
-              >CULTURE</a
-            >
-          </div>
-          <h4 class="font-weight-bold py-3 ff-1 m-0 p-0">
-            <a href="" class="text-dark"
-              >Pearl Harbor Day 2020: Photos from the Attack</a
-            >
-          </h4>
-          <p>
-            It's been 79 years since the attack on Pearl Harbor, which brought
-            the United States into World War II. These photos from the battle
-            are a stark reminder of those lost.
-          </p>
-        </div>
-        <div class="container-fluid py-3">
-          <div class="position-relative">
-            <img
-              src="./assets/img/pearl-harbor-uss-nevada.jpg"
-              class="img-fluid w-100 h-100"
-              alt="pearl-harbor"
-            />
-            <a
-              href="#"
-              class="position-absolute bg-light px-3 font-weight-bold text-danger ff-1"
-              >CULTURE</a
-            >
-          </div>
-          <h4 class="font-weight-bold py-3 ff-1 m-0 p-0">
-            <a href="" class="text-dark"
-              >Pearl Harbor Day 2020: Photos from the Attack</a
-            >
-          </h4>
-          <p>
-            It's been 79 years since the attack on Pearl Harbor, which brought
-            the United States into World War II. These photos from the battle
-            are a stark reminder of those lost.
-          </p>
-        </div>
-        <div class="container-fluid py-3">
-          <div class="position-relative">
-            <img
-              src="./assets/img/pearl-harbor-uss-nevada.jpg"
-              class="img-fluid w-100 h-100"
-              alt="pearl-harbor"
-            />
-            <a
-              href="#"
-              class="position-absolute bg-light px-3 font-weight-bold text-danger ff-1"
-              >CULTURE</a
-            >
-          </div>
-          <h4 class="font-weight-bold py-3 ff-1 m-0 p-0">
-            <a href="" class="text-dark"
-              >Pearl Harbor Day 2020: Photos from the Attack</a
-            >
-          </h4>
-          <p>
-            It's been 79 years since the attack on Pearl Harbor, which brought
-            the United States into World War II. These photos from the battle
-            are a stark reminder of those lost.
-          </p>
-        </div>
-        <div class="container-fluid py-3">
-          <div class="position-relative">
-            <img
-              src="./assets/img/pearl-harbor-uss-nevada.jpg"
-              class="img-fluid w-100 h-100"
-              alt="pearl-harbor"
-            />
-            <a
-              href="#"
-              class="position-absolute bg-light px-3 font-weight-bold text-danger ff-1"
-              >CULTURE</a
-            >
-          </div>
-          <h4 class="font-weight-bold py-3 ff-1 m-0 p-0">
-            <a href="" class="text-dark"
-              >Pearl Harbor Day 2020: Photos from the Attack</a
-            >
-          </h4>
-          <p>
-            It's been 79 years since the attack on Pearl Harbor, which brought
-            the United States into World War II. These photos from the battle
-            are a stark reminder of those lost.
-          </p>
-        </div>
-        </div>
-      </div>
-
-      <!-- U.S. Section -->
-
-      <div class="container-fluid bg-white border-bottom py-5">
-        <h4><a href="#" class="text-danger font-weight-bold">U.S.</a></h4>
-        <div class="d-md-flex">
-        <div class="d-md-flex">
-        <div>
-          <img
-            src="./assets/img/university-arkansas-school-art.jpg"
-            class="img-fluid w-100 h-100 w-reset pr-md-3"
-            alt="university"
-          />
-          <h4>
-            <a href="#" class="text-dark font-weight-bold ff-1"
-              >Twitter Jokes That Kelly Loeffler and Ann Coulter Are the Same
-              Person</a
-            >
-          </h4>
-        </div>
-        <div>
-          <img
-            src="./assets/img/university-arkansas-school-art.jpg"
-            class="img-fluid w-100 h-100 w-reset pr-md-3"
-            alt="university"
-          />
-          <h4>
-            <a href="#" class="text-dark font-weight-bold ff-1"
-              >Twitter Jokes That Kelly Loeffler and Ann Coulter Are the Same
-              Person</a
-            >
-          </h4>
-        </div>
-        </div>
-
-        <div class="d-md-flex flex-md-column"> 
-        <div class="d-flex pt-3 pt-md-0 pb-md-3">
-          <img
-            src="./assets/img/rutgers-university-school-health-professions.jpg"
-            class="w-50 h-50 pr-3 reset"
-            alt=""
-          />
-          <div>
-            <a href="#" class="text-dark font-weight-bold ff-1"
-              >Giuliani at Least 40th Person in Trump Inner Circle to Contract
-              COVID</a
-            >
-          </div>
-        </div>
-        <div class="d-flex pt-3 middle pb-md-3">
-          <img
-            src="./assets/img/rutgers-university-school-health-professions.jpg"
-            class="w-50 h-50 pr-3 reset"
-            alt=""
-          />
-          <div>
-            <a href="#" class="text-dark font-weight-bold ff-1"
-              >Giuliani at Least 40th Person in Trump Inner Circle to Contract
-              COVID</a
-            >
-          </div>
-        </div>
-        <div class="d-flex pt-3">
-          <img
-            src="./assets/img/rutgers-university-school-health-professions.jpg"
-            class="w-50 h-50 pr-3 reset"
-            alt=""
-          />
-          <div>
-            <a href="#" class="text-dark font-weight-bold ff-1"
-              >Giuliani at Least 40th Person in Trump Inner Circle to Contract
-              COVID</a
-            >
-          </div>
-        </div>
-        </div>
-        </div>
-      </div>
-      <!-- World section -->
-      <div class="container-fluid bg-white border-bottom py-5">
-        <h4><a href="#" class="text-danger font-weight-bold">U.S.</a></h4>
-        <div class="d-md-flex">
-        <div class="d-md-flex">
-        <div>
-          <img
-            src="./assets/img/university-arkansas-school-art.jpg"
-            class="img-fluid w-100 h-100 w-reset pr-md-3"
-            alt="university"
-          />
-          <h4>
-            <a href="#" class="text-dark font-weight-bold ff-1"
-              >Twitter Jokes That Kelly Loeffler and Ann Coulter Are the Same
-              Person</a
-            >
-          </h4>
-        </div>
-        <div>
-          <img
-            src="./assets/img/university-arkansas-school-art.jpg"
-            class="img-fluid w-100 h-100 w-reset pr-md-3"
-            alt="university"
-          />
-          <h4>
-            <a href="#" class="text-dark font-weight-bold ff-1"
-              >Twitter Jokes That Kelly Loeffler and Ann Coulter Are the Same
-              Person</a
-            >
-          </h4>
-        </div>
-        </div>
-
-        <div class="d-md-flex flex-md-column"> 
-        <div class="d-flex pt-3 pt-md-0 pb-md-3">
-          <img
-            src="./assets/img/rutgers-university-school-health-professions.jpg"
-            class="w-50 h-50 pr-3 reset"
-            alt=""
-          />
-          <div>
-            <a href="#" class="text-dark font-weight-bold ff-1"
-              >Giuliani at Least 40th Person in Trump Inner Circle to Contract
-              COVID</a
-            >
-          </div>
-        </div>
-        <div class="d-flex pt-3 middle pb-md-3">
-          <img
-            src="./assets/img/rutgers-university-school-health-professions.jpg"
-            class="w-50 h-50 pr-3 reset"
-            alt=""
-          />
-          <div>
-            <a href="#" class="text-dark font-weight-bold ff-1"
-              >Giuliani at Least 40th Person in Trump Inner Circle to Contract
-              COVID</a
-            >
-          </div>
-        </div>
-        <div class="d-flex pt-3">
-          <img
-            src="./assets/img/rutgers-university-school-health-professions.jpg"
-            class="w-50 h-50 pr-3 reset"
-            alt=""
-          />
-          <div>
-            <a href="#" class="text-dark font-weight-bold ff-1"
-              >Giuliani at Least 40th Person in Trump Inner Circle to Contract
-              COVID</a
-            >
-          </div>
-        </div>
-        </div>
-        </div>
-      </div>
-      <!-- BUSINESS -->
-      <div class="container-fluid bg-white border-bottom py-5">
-        <h4><a href="#" class="text-danger font-weight-bold">U.S.</a></h4>
-        <div class="d-md-flex">
-        <div class="d-md-flex">
-        <div>
-          <img
-            src="./assets/img/university-arkansas-school-art.jpg"
-            class="img-fluid w-100 h-100 w-reset pr-md-3"
-            alt="university"
-          />
-          <h4>
-            <a href="#" class="text-dark font-weight-bold ff-1"
-              >Twitter Jokes That Kelly Loeffler and Ann Coulter Are the Same
-              Person</a
-            >
-          </h4>
-        </div>
-        <div>
-          <img
-            src="./assets/img/university-arkansas-school-art.jpg"
-            class="img-fluid w-100 h-100 w-reset pr-md-3"
-            alt="university"
-          />
-          <h4>
-            <a href="#" class="text-dark font-weight-bold ff-1"
-              >Twitter Jokes That Kelly Loeffler and Ann Coulter Are the Same
-              Person</a
-            >
-          </h4>
-        </div>
-        </div>
-
-        <div class="d-md-flex flex-md-column"> 
-        <div class="d-flex pt-3 pt-md-0 pb-md-3">
-          <img
-            src="./assets/img/rutgers-university-school-health-professions.jpg"
-            class="w-50 h-50 pr-3 reset"
-            alt=""
-          />
-          <div>
-            <a href="#" class="text-dark font-weight-bold ff-1"
-              >Giuliani at Least 40th Person in Trump Inner Circle to Contract
-              COVID</a
-            >
-          </div>
-        </div>
-        <div class="d-flex pt-3 middle pb-md-3">
-          <img
-            src="./assets/img/rutgers-university-school-health-professions.jpg"
-            class="w-50 h-50 pr-3 reset"
-            alt=""
-          />
-          <div>
-            <a href="#" class="text-dark font-weight-bold ff-1"
-              >Giuliani at Least 40th Person in Trump Inner Circle to Contract
-              COVID</a
-            >
-          </div>
-        </div>
-        <div class="d-flex pt-3">
-          <img
-            src="./assets/img/rutgers-university-school-health-professions.jpg"
-            class="w-50 h-50 pr-3 reset"
-            alt=""
-          />
-          <div>
-            <a href="#" class="text-dark font-weight-bold ff-1"
-              >Giuliani at Least 40th Person in Trump Inner Circle to Contract
-              COVID</a
-            >
-          </div>
-        </div>
-        </div>
-        </div>
-      </div>
-      <!-- TECH AND SCIENCE -->
-      <div class="container-fluid bg-white border-bottom py-5">
-        <h4><a href="#" class="text-danger font-weight-bold">U.S.</a></h4>
-        <div class="d-md-flex">
-        <div class="d-md-flex">
-        <div>
-          <img
-            src="./assets/img/university-arkansas-school-art.jpg"
-            class="img-fluid w-100 h-100 w-reset pr-md-3"
-            alt="university"
-          />
-          <h4>
-            <a href="#" class="text-dark font-weight-bold ff-1"
-              >Twitter Jokes That Kelly Loeffler and Ann Coulter Are the Same
-              Person</a
-            >
-          </h4>
-        </div>
-        <div>
-          <img
-            src="./assets/img/university-arkansas-school-art.jpg"
-            class="img-fluid w-100 h-100 w-reset pr-md-3"
-            alt="university"
-          />
-          <h4>
-            <a href="#" class="text-dark font-weight-bold ff-1"
-              >Twitter Jokes That Kelly Loeffler and Ann Coulter Are the Same
-              Person</a
-            >
-          </h4>
-        </div>
-        </div>
-
-        <div class="d-md-flex flex-md-column"> 
-        <div class="d-flex pt-3 pt-md-0 pb-md-3">
-          <img
-            src="./assets/img/rutgers-university-school-health-professions.jpg"
-            class="w-50 h-50 pr-3 reset"
-            alt=""
-          />
-          <div>
-            <a href="#" class="text-dark font-weight-bold ff-1"
-              >Giuliani at Least 40th Person in Trump Inner Circle to Contract
-              COVID</a
-            >
-          </div>
-        </div>
-        <div class="d-flex pt-3 middle pb-md-3">
-          <img
-            src="./assets/img/rutgers-university-school-health-professions.jpg"
-            class="w-50 h-50 pr-3 reset"
-            alt=""
-          />
-          <div>
-            <a href="#" class="text-dark font-weight-bold ff-1"
-              >Giuliani at Least 40th Person in Trump Inner Circle to Contract
-              COVID</a
-            >
-          </div>
-        </div>
-        <div class="d-flex pt-3">
-          <img
-            src="./assets/img/rutgers-university-school-health-professions.jpg"
-            class="w-50 h-50 pr-3 reset"
-            alt=""
-          />
-          <div>
-            <a href="#" class="text-dark font-weight-bold ff-1"
-              >Giuliani at Least 40th Person in Trump Inner Circle to Contract
-              COVID</a
-            >
-          </div>
-        </div>
-        </div>
-        </div>
-      </div>
-      <!-- CULTURE -->
-      <div class="container-fluid bg-white border-bottom py-5">
-        <h4><a href="#" class="text-danger font-weight-bold">U.S.</a></h4>
-        <div class="d-md-flex">
-        <div class="d-md-flex">
-        <div>
-          <img
-            src="./assets/img/university-arkansas-school-art.jpg"
-            class="img-fluid w-100 h-100 w-reset pr-md-3"
-            alt="university"
-          />
-          <h4>
-            <a href="#" class="text-dark font-weight-bold ff-1"
-              >Twitter Jokes That Kelly Loeffler and Ann Coulter Are the Same
-              Person</a
-            >
-          </h4>
-        </div>
-        <div>
-          <img
-            src="./assets/img/university-arkansas-school-art.jpg"
-            class="img-fluid w-100 h-100 w-reset pr-md-3"
-            alt="university"
-          />
-          <h4>
-            <a href="#" class="text-dark font-weight-bold ff-1"
-              >Twitter Jokes That Kelly Loeffler and Ann Coulter Are the Same
-              Person</a
-            >
-          </h4>
-        </div>
-        </div>
-
-        <div class="d-md-flex flex-md-column"> 
-        <div class="d-flex pt-3 pt-md-0 pb-md-3">
-          <img
-            src="./assets/img/rutgers-university-school-health-professions.jpg"
-            class="w-50 h-50 pr-3 reset"
-            alt=""
-          />
-          <div>
-            <a href="#" class="text-dark font-weight-bold ff-1"
-              >Giuliani at Least 40th Person in Trump Inner Circle to Contract
-              COVID</a
-            >
-          </div>
-        </div>
-        <div class="d-flex pt-3 middle pb-md-3">
-          <img
-            src="./assets/img/rutgers-university-school-health-professions.jpg"
-            class="w-50 h-50 pr-3 reset"
-            alt=""
-          />
-          <div>
-            <a href="#" class="text-dark font-weight-bold ff-1"
-              >Giuliani at Least 40th Person in Trump Inner Circle to Contract
-              COVID</a
-            >
-          </div>
-        </div>
-        <div class="d-flex pt-3">
-          <img
-            src="./assets/img/rutgers-university-school-health-professions.jpg"
-            class="w-50 h-50 pr-3 reset"
-            alt=""
-          />
-          <div>
-            <a href="#" class="text-dark font-weight-bold ff-1"
-              >Giuliani at Least 40th Person in Trump Inner Circle to Contract
-              COVID</a
-            >
-          </div>
-        </div>
-        </div>
-        </div>
-      </div>
-      <!-- SPORTS -->
-      <div class="container-fluid bg-white border-bottom py-5">
-        <h4><a href="#" class="text-danger font-weight-bold">U.S.</a></h4>
-        <div class="d-md-flex">
-        <div class="d-md-flex">
-        <div>
-          <img
-            src="./assets/img/university-arkansas-school-art.jpg"
-            class="img-fluid w-100 h-100 w-reset pr-md-3"
-            alt="university"
-          />
-          <h4>
-            <a href="#" class="text-dark font-weight-bold ff-1"
-              >Twitter Jokes That Kelly Loeffler and Ann Coulter Are the Same
-              Person</a
-            >
-          </h4>
-        </div>
-        <div>
-          <img
-            src="./assets/img/university-arkansas-school-art.jpg"
-            class="img-fluid w-100 h-100 w-reset pr-md-3"
-            alt="university"
-          />
-          <h4>
-            <a href="#" class="text-dark font-weight-bold ff-1"
-              >Twitter Jokes That Kelly Loeffler and Ann Coulter Are the Same
-              Person</a
-            >
-          </h4>
-        </div>
-        </div>
-
-        <div class="d-md-flex flex-md-column"> 
-        <div class="d-flex pt-3 pt-md-0 pb-md-3">
-          <img
-            src="./assets/img/rutgers-university-school-health-professions.jpg"
-            class="w-50 h-50 pr-3 reset"
-            alt=""
-          />
-          <div>
-            <a href="#" class="text-dark font-weight-bold ff-1"
-              >Giuliani at Least 40th Person in Trump Inner Circle to Contract
-              COVID</a
-            >
-          </div>
-        </div>
-        <div class="d-flex pt-3 middle pb-md-3">
-          <img
-            src="./assets/img/rutgers-university-school-health-professions.jpg"
-            class="w-50 h-50 pr-3 reset"
-            alt=""
-          />
-          <div>
-            <a href="#" class="text-dark font-weight-bold ff-1"
-              >Giuliani at Least 40th Person in Trump Inner Circle to Contract
-              COVID</a
-            >
-          </div>
-        </div>
-        <div class="d-flex pt-3">
-          <img
-            src="./assets/img/rutgers-university-school-health-professions.jpg"
-            class="w-50 h-50 pr-3 reset"
-            alt=""
-          />
-          <div>
-            <a href="#" class="text-dark font-weight-bold ff-1"
-              >Giuliani at Least 40th Person in Trump Inner Circle to Contract
-              COVID</a
-            >
-          </div>
-        </div>
-        </div>
-        </div>
-      </div>
-      </div>
-
-      <!-- Subscribe + newsletter section -->
+    <div class="nav-links">
       <div>
-        <div class="text-center bg-white py-4 px-3">
-          <h4 class="text-danger text-left px-2 font-weight-bold ff-1">
-            SUBSCRIBE
-          </h4>
-          <div class="bg-secondary">
+        <a href="#">U.S.</a>
+        <a href="#">U.S.</a>
+        <a href="#">U.S.</a>
+        <a href="#">U.S.</a>
+        <a href="#">U.S.</a>
+        <a href="#">U.S.</a>
+        <a href="#">U.S.</a>
+        <a href="#">U.S.</a>
+        <a href="#">U.S.</a>
+        <a href="#">U.S.</a>
+        <a href="#">U.S.</a>
+        <i></i>
+      </div>
+      <div>
+        <a href="#">TRENDING</a>
+        <a href="#">TRENDING</a>
+        <a href="#">TRENDING</a>
+        <a href="#">TRENDING</a>
+        <a href="#">TRENDING</a>
+        <a href="#">TRENDING</a>
+      </div>
+    </div>
+  </nav>
+
+  <main class="bg-secondary">
+    <div class="main-container d-flex">
+      <div class="row">
+        <!-- FEATURED STORIES -->
+        <section class="m-0 p-0 left-column col-md-5">
+          <div class="container-fluid p-3 bg-white mt-4 m-md-0 FSG">
+            <p class="font-weight-bold ff-1 section-header">FEATURED STORIES</p>
+
+            <div class="">
+              <div class="position-relative">
+                <img src="./assets/img/brandon-bernard.jpg" class="img-fluid w-100 h-100" alt="" />
+                <a href="#" class="position-absolute bg-light px-3 font-weight-bold text-danger">U.S.</a>
+              </div>
+              <h4 class="font-weight-bold py-3">
+                <a href="" class="text-dark ff-1">GOP Senate Majority at Risk, Trump Puts His Interests above
+                  Party Unity</a>
+              </h4>
+              <p>
+                As the president campaigned for the Republican candidates in
+                Georgia, he continued to denounce the party's own officials in the
+                state over his election defeat to President-elect Joe Biden.
+              </p>
+            </div>
+            <div class="">
+              <div class="position-relative">
+                <img src="./assets/img/brandon-bernard.jpg" class="img-fluid w-100 h-100" alt="" />
+                <a href="#" class="position-absolute bg-light px-3 font-weight-bold text-danger">U.S.</a>
+              </div>
+              <h4 class="font-weight-bold py-3">
+                <a href="" class="text-dark ff-1">GOP Senate Majority at Risk, Trump Puts His Interests above
+                  Party Unity</a>
+              </h4>
+              <p>
+                As the president campaigned for the Republican candidates in
+                Georgia, he continued to denounce the party's own officials in the
+                state over his election defeat to President-elect Joe Biden.
+              </p>
+            </div>
+            <div class="">
+              <div class="position-relative">
+                <img src="./assets/img/brandon-bernard.jpg" class="img-fluid w-100 h-100" alt="" />
+                <a href="#" class="position-absolute bg-light px-3 font-weight-bold text-danger">U.S.</a>
+              </div>
+              <h4 class="font-weight-bold py-3">
+                <a href="" class="text-dark ff-1">GOP Senate Majority at Risk, Trump Puts His Interests above
+                  Party Unity</a>
+              </h4>
+              <p>
+                As the president campaigned for the Republican candidates in
+                Georgia, he continued to denounce the party's own officials in the
+                state over his election defeat to President-elect Joe Biden.
+              </p>
+            </div>
+            <div class="">
+              <div class="position-relative">
+                <img src="./assets/img/brandon-bernard.jpg" class="img-fluid w-100 h-100" alt="" />
+                <a href="#" class="position-absolute bg-light px-3 font-weight-bold text-danger">U.S.</a>
+              </div>
+              <h4 class="font-weight-bold py-3">
+                <a href="" class="text-dark ff-1">GOP Senate Majority at Risk, Trump Puts His Interests above
+                  Party Unity</a>
+              </h4>
+              <p>
+                As the president campaigned for the Republican candidates in
+                Georgia, he continued to denounce the party's own officials in the
+                state over his election defeat to President-elect Joe Biden.
+              </p>
+            </div>
+            <div class="">
+              <div class="position-relative">
+                <img src="./assets/img/brandon-bernard.jpg" class="img-fluid w-100 h-100" alt="" />
+                <a href="#" class="position-absolute bg-light px-3 font-weight-bold text-danger">U.S.</a>
+              </div>
+              <h4 class="font-weight-bold py-3">
+                <a href="" class="text-dark ff-1">GOP Senate Majority at Risk, Trump Puts His Interests above
+                  Party Unity</a>
+              </h4>
+              <p>
+                As the president campaigned for the Republican candidates in
+                Georgia, he continued to denounce the party's own officials in the
+                state over his election defeat to President-elect Joe Biden.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <!-- TOP STORY-->
+        <section class="m-0 p-0 col-md-7">
+          <header class="bg-white p-3 d-flex justify-content-center flex-column border-bottom TSG">
+            <p class="font-weight-bold text-muted">TOP STORY</p>
+            <div class="position-relative d-flex flex-column">
+              <img src="./assets/img/top_stories.jpg" class="img-fluid w-100 h-100" alt="top_stories" />
+              <a href="#" class="position-absolute bg-light px-3 font-weight-bold text-danger">POLITICS</a>
+            </div>
+            <h4 class="font-weight-bold py-3 m-0">
+              <a href="#" class="text-dark font-weight-bold ff-1">GOP Senate Majority at Risk, Trump Puts His Interests
+                above Party
+                Unity</a>
+            </h4>
+            <p class="ff-2 p-0 m-0">
+              As the president campaigned for the Republican candidates in
+              Georgia, he continued to denounce the party's own officials in the
+              state over his election defeat to President-elect Joe Biden.
+            </p>
+          </header>
+
+
+
+          <!-- MORE STORIES -->
+          <div class="container-fluid bg-white mt-4 pt-3 border-bottom MSG">
+            <p class="text-muted ff-1 section-header">MORE STORIES</p>
+            <div class="d-flex py-2 border-top">
+              <img src="./assets/img/us-pandemic.jpg" class="img-fluid h-25 w-25" alt="us-pandemic" />
+              <div class="px-3">
+                <p class="lh">
+                  <a href="#" class="text-dark font-weight-bold ff-1">With Under 60+ Days Til Nov. 3, Trump is Leading
+                    in
+                    These
+                    States, Polls Show</a>
+                </p>
+                <p class="ms-p">
+                  According to statistics available on polling website
+                  FiveThirtyEight, Trump is pulling in the strongest numbers in
+                  Alabama and Oklahoma, both considered to be red states.
+                </p>
+              </div>
+            </div>
+            <div class="d-flex py-2 border-top">
+              <img src="./assets/img/us-pandemic.jpg" class="img-fluid h-25 w-25" alt="us-pandemic" />
+              <div class="px-3">
+                <p class="lh">
+                  <a href="#" class="text-dark font-weight-bold ff-1">With Under 60+ Days Til Nov. 3, Trump is Leading
+                    in
+                    These
+                    States, Polls Show</a>
+                </p>
+                <p class="ms-p">
+                  According to statistics available on polling website
+                  FiveThirtyEight, Trump is pulling in the strongest numbers in
+                  Alabama and Oklahoma, both considered to be red states.
+                </p>
+              </div>
+            </div>
+            <div class="d-flex py-2 border-top">
+              <img src="./assets/img/us-pandemic.jpg" class="img-fluid h-25 w-25" alt="us-pandemic" />
+              <div class="px-3">
+                <p class="lh">
+                  <a href="#" class="text-dark font-weight-bold ff-1">With Under 60+ Days Til Nov. 3, Trump is Leading
+                    in
+                    These
+                    States, Polls Show</a>
+                </p>
+                <p class="ms-p">
+                  According to statistics available on polling website
+                  FiveThirtyEight, Trump is pulling in the strongest numbers in
+                  Alabama and Oklahoma, both considered to be red states.
+                </p>
+              </div>
+            </div>
+            <div class="d-flex py-2 border-top">
+              <img src="./assets/img/us-pandemic.jpg" class="img-fluid h-25 w-25" alt="us-pandemic" />
+              <div class="px-3">
+                <p class="lh">
+                  <a href="#" class="text-dark font-weight-bold ff-1">With Under 60+ Days Til Nov. 3, Trump is Leading
+                    in
+                    These
+                    States, Polls Show</a>
+                </p>
+                <p class="ms-p">
+                  According to statistics available on polling website
+                  FiveThirtyEight, Trump is pulling in the strongest numbers in
+                  Alabama and Oklahoma, both considered to be red states.
+                </p>
+              </div>
+            </div>
+            <div class="d-flex py-2 border-top">
+              <img src="./assets/img/us-pandemic.jpg" class="img-fluid h-25 w-25" alt="us-pandemic" />
+              <div class="px-3">
+                <p class="lh">
+                  <a href="#" class="text-dark font-weight-bold ff-1">With Under 60+ Days Til Nov. 3, Trump is Leading
+                    in
+                    These
+                    States, Polls Show</a>
+                </p>
+                <p class="ms-p">
+                  According to statistics available on polling website
+                  FiveThirtyEight, Trump is pulling in the strongest numbers in
+                  Alabama and Oklahoma, both considered to be red states.
+                </p>
+              </div>
+            </div>
+            <div class="d-flex py-2 border-top">
+              <img src="./assets/img/us-pandemic.jpg" class="img-fluid h-25 w-25" alt="us-pandemic" />
+              <div class="px-3">
+                <p class="lh">
+                  <a href="#" class="text-dark font-weight-bold ff-1">With Under 60+ Days Til Nov. 3, Trump is Leading
+                    in
+                    These
+                    States, Polls Show</a>
+                </p>
+                <p class="ms-p">
+                  According to statistics available on polling website
+                  FiveThirtyEight, Trump is pulling in the strongest numbers in
+                  Alabama and Oklahoma, both considered to be red states.
+                </p>
+              </div>
+            </div>
+            <div class="d-flex py-2 border-top">
+              <img src="./assets/img/us-pandemic.jpg" class="img-fluid h-25 w-25" alt="us-pandemic" />
+              <div class="px-3">
+                <p class="lh">
+                  <a href="#" class="text-dark font-weight-bold ff-1">With Under 60+ Days Til Nov. 3, Trump is Leading
+                    in
+                    These
+                    States, Polls Show</a>
+                </p>
+                <p class="ms-p">
+                  According to statistics available on polling website
+                  FiveThirtyEight, Trump is pulling in the strongest numbers in
+                  Alabama and Oklahoma, both considered to be red states.
+                </p>
+              </div>
+            </div>
+            <div class="d-flex py-2 border-top">
+              <img src="./assets/img/us-pandemic.jpg" class="img-fluid h-25 w-25" alt="us-pandemic" />
+              <div class="px-3">
+                <p class="lh">
+                  <a href="#" class="text-dark font-weight-bold ff-1">With Under 60+ Days Til Nov. 3, Trump is Leading
+                    in
+                    These
+                    States, Polls Show</a>
+                </p>
+                <p class="ms-p">
+                  According to statistics available on polling website
+                  FiveThirtyEight, Trump is pulling in the strongest numbers in
+                  Alabama and Oklahoma, both considered to be red states.
+                </p>
+              </div>
+            </div>
+            <div class="d-flex py-2 border-top">
+              <img src="./assets/img/us-pandemic.jpg" class="img-fluid h-25 w-25" alt="us-pandemic" />
+              <div class="px-3">
+                <p class="lh">
+                  <a href="#" class="text-dark font-weight-bold ff-1">With Under 60+ Days Til Nov. 3, Trump is Leading
+                    in
+                    These
+                    States, Polls Show</a>
+                </p>
+                <p class="ms-p">
+                  According to statistics available on polling website
+                  FiveThirtyEight, Trump is pulling in the strongest numbers in
+                  Alabama and Oklahoma, both considered to be red states.
+                </p>
+              </div>
+            </div>
+            <div class="d-flex py-2 border-top">
+              <img src="./assets/img/us-pandemic.jpg" class="img-fluid h-25 w-25" alt="us-pandemic" />
+              <div class="px-3">
+                <p class="lh">
+                  <a href="#" class="text-dark font-weight-bold ff-1">With Under 60+ Days Til Nov. 3, Trump is Leading
+                    in
+                    These
+                    States, Polls Show</a>
+                </p>
+                <p class="ms-p">
+                  According to statistics available on polling website
+                  FiveThirtyEight, Trump is pulling in the strongest numbers in
+                  Alabama and Oklahoma, both considered to be red states.
+                </p>
+              </div>
+            </div>
+            <div class="d-flex py-2 border-top">
+              <img src="./assets/img/us-pandemic.jpg" class="img-fluid h-25 w-25" alt="us-pandemic" />
+              <div class="px-3">
+                <p class="lh">
+                  <a href="#" class="text-dark font-weight-bold ff-1">With Under 60+ Days Til Nov. 3, Trump is Leading
+                    in
+                    These
+                    States, Polls Show</a>
+                </p>
+                <p class="ms-p">
+                  According to statistics available on polling website
+                  FiveThirtyEight, Trump is pulling in the strongest numbers in
+                  Alabama and Oklahoma, both considered to be red states.
+                </p>
+              </div>
+            </div>
+            <div class="d-flex py-2 border-top">
+              <img src="./assets/img/us-pandemic.jpg" class="img-fluid h-25 w-25" alt="us-pandemic" />
+              <div class="px-3">
+                <p class="lh">
+                  <a href="#" class="text-dark font-weight-bold ff-1">With Under 60+ Days Til Nov. 3, Trump is Leading
+                    in
+                    These
+                    States, Polls Show</a>
+                </p>
+                <p class="ms-p">
+                  According to statistics available on polling website
+                  FiveThirtyEight, Trump is pulling in the strongest numbers in
+                  Alabama and Oklahoma, both considered to be red states.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- MY TURN SECTION -->
+          <div class="container-fluid bg-white mt-4 p-3 MTG">
+            <div class="row">
+              <p class="col-md-12"><a href="#" class="text-muted ff-1 section-header">MY TURN</a></p>
+            </div>
+            <div class="row">
+              <div class="pb-3 col-md-4">
+                <a href="#">
+                  <img src="./assets/img/coronavirus-pandemic-mini-stroke-hospitals.jpg" alt="patient"
+                    class="img-fluid w-100 h-100 pb-3" />
+                </a>
+                <br />
+                <a href="#" class="text-muted font-weight-bold ff-1">'I'm a Secret Engagement Ring Buyer for Clueless
+                  Guys'</a>
+              </div>
+              <div class="pb-3 col-md-4">
+                <a href="#">
+                  <img src="./assets/img/coronavirus-pandemic-mini-stroke-hospitals.jpg" alt="patient"
+                    class="img-fluid w-100 h-100 pb-3" />
+                </a>
+                <br />
+                <a href="#" class="text-muted font-weight-bold ff-1">'I'm a Secret Engagement Ring Buyer for Clueless
+                  Guys'</a>
+              </div>
+              <div class="pb-3 col-md-4">
+                <a href="#">
+                  <img src="./assets/img/coronavirus-pandemic-mini-stroke-hospitals.jpg" alt="patient"
+                    class="img-fluid w-100 h-100 pb-3" />
+                </a>
+                <br />
+                <a href="#" class="text-muted font-weight-bold ff-1">'I'm a Secret Engagement Ring Buyer for Clueless
+                  Guys'</a>
+              </div>
+            </div>
+            <div class="row">
+              <p class="col-md-12">
+                <a href="#" class="text-muted ff-1 section-header">CULTURE & TRAVEL</a>
+              </p>
+            </div>
+            <div class="row">
+              <div class="pb-3 col-md-4">
+                <div class="position-relative">
+                  <a href="#">
+                    <img src="./assets/img/36-dominican-republic.jpg" alt="patient"
+                      class="img-fluid w-100 h-100 pb-3" />
+                  </a>
+                  <a href="#" class="position-absolute bg-secondary px-2 font-weight-bold text-dark ff-1">TRAVEL</a>
+                </div>
+                <br />
+                <a href="#" class="text-muted font-weight-bold ff-1">'I'm a Secret Engagement Ring Buyer for Clueless
+                  Guys'</a>
+              </div>
+              <div class="pb-3 col-md-4">
+                <div class="position-relative">
+                  <a href="#">
+                    <img src="./assets/img/36-dominican-republic.jpg" alt="patient"
+                      class="img-fluid w-100 h-100 pb-3" />
+                  </a>
+                  <a href="#" class="position-absolute bg-secondary px-2 font-weight-bold text-dark ff-1">TRAVEL</a>
+                </div>
+                <br />
+                <a href="#" class="text-muted font-weight-bold ff-1">'I'm a Secret Engagement Ring Buyer for Clueless
+                  Guys'</a>
+              </div>
+              <div class="pb-3 col-md-4">
+                <div class="position-relative">
+                  <a href="#">
+                    <img src="./assets/img/36-dominican-republic.jpg" alt="patient"
+                      class="img-fluid w-100 h-100 pb-3" />
+                  </a>
+                  <a href="#" class="position-absolute bg-secondary px-2 font-weight-bold text-dark ff-1">TRAVEL</a>
+                </div>
+                <br />
+                <a href="#" class="text-muted font-weight-bold ff-1">'I'm a Secret Engagement Ring Buyer for Clueless
+                  Guys'</a>
+              </div>
+            </div>
+
+          </div>
+        </section>
+        <!-- THE DEBATE -->
+        <section class="m-0 p-0 right-column col-md-12">
+          <div class="container-fluid bg-white mt-4 py-4 TDB">
+            <p>
+              <a href="#" class="text-muted ff-1 section-header">THE DEBATE</a>
+            </p>
+            <div class="d-flex border-top p-3">
+              <img src="./assets/img/jonathan-tobin.png" alt="JONATHAN" />
+              <div class="px-3 font-weight-bold">
+                <a href="#" class="text-dark ff-1">Should Trump Concede? Yes</a><br />
+                BY <a href="#" class="text-muted ff-1">JONATHAN TOBIN</a>
+              </div>
+            </div>
             <div class="position-relative">
-              <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-              <img
-                src="./assets/img/cover-november-27-2020.jpg"
-                class="position-absolute w-35 cover_a"
-                alt="november"
-              />
-              <img
-                src="./assets/img/cover-december-04-11-2020.jpg"
-                class="position-absolute w-35 cover_b"
-                alt="december"
-              />
+              <p class="position-absolute vs p-2 font-weight-bold text-light">
+                VS
+              </p>
+              <hr class="debate-hr" />
+            </div>
+            <div class="d-flex justify-content-between border-bottom p-3">
+              <div class="font-weight-bold">
+                <a href="#" class="text-dark ff-1">Should Trump Concede? Yes</a><br />
+                BY <a href="#" class="text-muted ff-1">SPENCER KLAVAN</a>
+              </div>
+              <img src="./assets/img/spencer-klavan.png" alt="spencer-klavan" />
+            </div>
+          </div>
+
+          <!-- OPINION -->
+          <div class="container-fluid bg-white mt-4 OPG">
+            <p><a href="#" class="text-muted ff-1 section-header">OPINION</a></p>
+            <div class="d-flex border-top p-2">
+              <img src="./assets/img/arif-ahmed-ross-anderson.png" alt="JONATHAN" />
+              <div class="px-3 font-weight-bold">
+                <a href="#" class="text-dark">A British Court Breaks Gender Fever</a><br />
+                BY <a href="#" class="text-muted">JONATHAN TOBIN</a>
+              </div>
+            </div>
+            <div class="d-flex border-top p-2">
+              <img src="./assets/img/arif-ahmed-ross-anderson.png" alt="JONATHAN" />
+              <div class="px-3 font-weight-bold">
+                <a href="#" class="text-dark">A British Court Breaks Gender Fever</a><br />
+                BY <a href="#" class="text-muted">JONATHAN TOBIN</a>
+              </div>
+            </div>
+            <div class="d-flex border-top p-2">
+              <img src="./assets/img/arif-ahmed-ross-anderson.png" alt="JONATHAN" />
+              <div class="px-3 font-weight-bold">
+                <a href="#" class="text-dark">A British Court Breaks Gender Fever</a><br />
+                BY <a href="#" class="text-muted">JONATHAN TOBIN</a>
+              </div>
+            </div>
+            <div class="d-flex border-top p-2">
+              <img src="./assets/img/arif-ahmed-ross-anderson.png" alt="JONATHAN" />
+              <div class="px-3 font-weight-bold">
+                <a href="#" class="text-dark">A British Court Breaks Gender Fever</a><br />
+                BY <a href="#" class="text-muted">JONATHAN TOBIN</a>
+              </div>
+            </div>
+            <div class="d-flex border-top p-2">
+              <img src="./assets/img/arif-ahmed-ross-anderson.png" alt="JONATHAN" />
+              <div class="px-3 font-weight-bold">
+                <a href="#" class="text-dark">A British Court Breaks Gender Fever</a><br />
+                BY <a href="#" class="text-muted">JONATHAN TOBIN</a>
+              </div>
+            </div>
+            <div class="d-flex border-top p-2">
+              <img src="./assets/img/arif-ahmed-ross-anderson.png" alt="JONATHAN" />
+              <div class="px-3 font-weight-bold">
+                <a href="#" class="text-dark">A British Court Breaks Gender Fever</a><br />
+                BY <a href="#" class="text-muted">JONATHAN TOBIN</a>
+              </div>
+            </div>
+            <div class="d-flex border-top p-2">
+              <img src="./assets/img/arif-ahmed-ross-anderson.png" alt="JONATHAN" />
+              <div class="px-3 font-weight-bold">
+                <a href="#" class="text-dark">A British Court Breaks Gender Fever</a><br />
+                BY <a href="#" class="text-muted">JONATHAN TOBIN</a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- SUBSCRIBE BOX -->
+        <section class="m-5 px-4 bg-light border py-3">
+          <div class="mx-3 d-flex align-items-center">
+            <div class="pb-2">
+              <img src="./assets/img/favicon-32x32.png" alt="" />
             </div>
             <div>
-              <h5 class="ff-1">
-                In-depth Stories You Don't See Elsewhere About Topics You Want
-                to Read!
+              <h5 class="ff-1 pl-2">
+                START YOUR DAY WITH OUR TOP 5 ARTICLES
               </h5>
-              <p>
-                All Access + Weekly Delivery. Choose A Membership That's Perfect
-                for You!
-              </p>
-              <a href="#" class="btn btn-danger ff-1 mt-4">SUBSCRIBE</a>
+            </div>
+          </div>
+
+          <div class="container-fluid">
+            <form action="#">
+              <input class="w-100 my-2" type="email" required /><br />
+              <button class="btn btn-danger btn-block">FREE SIGN UP ></button>
+            </form>
+          </div>
+        </section>
+      </div>
+    </div>
+    <!-- IN MAGAZINE -->
+    <div class="container-fluid bg-white mt-4 pt-4 border-bottom">
+      <div class="d-flex justify-content-center mag-border">
+        <img src="./assets/img/favicon-32x32.png" class="img-fluid" alt="logo" />
+        <h4 class="px-3 ff-1 ">IN THE MAGAZINE</h4>
+      </div>
+      <div class="magazine">
+        <div>
+          <div class="py-2 position-relative">
+            <img src="./assets/img/cover-december-04-11-2020.jpg" alt="cover-img" class="w-100 h-100" />
+            <a href="#" class="position-absolute bg-light px-3 mb-2 font-weight-bold text-danger ff-1">DECEMBER 11
+              ISSUE</a>
+          </div>
+          <a href="#" class="btn-block btn-light text-center ff-1 py-2">SEE ALL FEATURES ></a>
+        </div>
+
+        <div>
+          <img src="./assets/img/cover-fe-vaccine-moderna.jpg" class="img-fluid w-100 h-100 h-md-0" alt="moderna" />
+          <div class="d-flex mt-3">
+            <h5 class="bg-danger text-white px-2 ff-1">COVER</h5>
+            <a href="#" class="px-3 text-danger font-weight-bold">HEALTH</a>
+          </div>
+          <h5>
+            <a href="#" class="text-dark ff-1">Vaccines Won't Stop the Pandemic Until 50 Million US Skeptics
+              Embrace Them</a>
+          </h5>
+        </div>
+        <div>
+          <img src="./assets/img/cover-fe-vaccine-moderna.jpg" class="img-fluid w-100 h-100 h-md-0" alt="moderna" />
+          <div class="d-flex mt-3">
+            <h5 class="bg-danger text-white px-2 ff-1">COVER</h5>
+            <a href="#" class="px-3 text-danger font-weight-bold">HEALTH</a>
+          </div>
+          <h5>
+            <a href="#" class="text-dark ff-1">Vaccines Won't Stop the Pandemic Until 50 Million US Skeptics
+              Embrace Them</a>
+          </h5>
+        </div>
+        <div>
+          <img src="./assets/img/cover-fe-vaccine-moderna.jpg" class="img-fluid w-100 h-100 h-md-0" alt="moderna" />
+          <div class="d-flex mt-3">
+            <h5 class="bg-danger text-white px-2 ff-1">COVER</h5>
+            <a href="#" class="px-3 text-danger font-weight-bold">HEALTH</a>
+          </div>
+          <h5>
+            <a href="#" class="text-dark ff-1">Vaccines Won't Stop the Pandemic Until 50 Million US Skeptics
+              Embrace Them</a>
+          </h5>
+        </div>
+        <div>
+          <img src="./assets/img/cover-fe-vaccine-moderna.jpg" class="img-fluid w-100 h-100 h-md-0" alt="moderna" />
+          <div class="d-flex mt-3">
+            <h5 class="bg-danger text-white px-2 ff-1">COVER</h5>
+            <a href="#" class="px-3 text-danger font-weight-bold">HEALTH</a>
+          </div>
+          <h5>
+            <a href="#" class="text-dark ff-1">Vaccines Won't Stop the Pandemic Until 50 Million US Skeptics
+              Embrace Them</a>
+          </h5>
+        </div>
+        <div>
+          <img src="./assets/img/cover-fe-vaccine-moderna.jpg" class="img-fluid w-100 h-100 h-md-0" alt="moderna" />
+          <div class="d-flex mt-3">
+            <h5 class="bg-danger text-white px-2 ff-1">COVER</h5>
+            <a href="#" class="px-3 text-danger font-weight-bold">HEALTH</a>
+          </div>
+          <h5>
+            <a href="#" class="text-dark ff-1">Vaccines Won't Stop the Pandemic Until 50 Million US Skeptics
+              Embrace Them</a>
+          </h5>
+        </div>
+        <div>
+          <img src="./assets/img/cover-fe-vaccine-moderna.jpg" class="img-fluid w-100 h-100 h-md-0" alt="moderna" />
+          <div class="d-flex mt-3">
+            <h5 class="bg-danger text-white px-2 ff-1">COVER</h5>
+            <a href="#" class="px-3 text-danger font-weight-bold">HEALTH</a>
+          </div>
+          <h5>
+            <a href="#" class="text-dark ff-1">Vaccines Won't Stop the Pandemic Until 50 Million US Skeptics
+              Embrace Them</a>
+          </h5>
+        </div>
+      </div>
+    </div>
+
+    <!-- EDITOR'S PICK -->
+
+    <div class="container-fluid bg-white mt-4 pt-4">
+      <div class="d-flex justify-content-center">
+        <img src="./assets/img/favicon-32x32.png" class="img-fluid" alt="logo" />
+        <h4 class="px-3 ff-1">EDITOR'S PICK</h4>
+      </div>
+      <hr />
+      <div class="editor">
+        <div class="container-fluid py-3">
+          <div class="position-relative">
+            <img src="./assets/img/pearl-harbor-uss-nevada.jpg" class="img-fluid w-100 h-100" alt="pearl-harbor" />
+            <a href="#" class="position-absolute bg-light px-3 font-weight-bold text-danger ff-1">CULTURE</a>
+          </div>
+          <h4 class="font-weight-bold py-3 ff-1 m-0 p-0">
+            <a href="" class="text-dark">Pearl Harbor Day 2020: Photos from the Attack</a>
+          </h4>
+          <p>
+            It's been 79 years since the attack on Pearl Harbor, which brought
+            the United States into World War II. These photos from the battle
+            are a stark reminder of those lost.
+          </p>
+        </div>
+        <div class="container-fluid py-3">
+          <div class="position-relative">
+            <img src="./assets/img/pearl-harbor-uss-nevada.jpg" class="img-fluid w-100 h-100" alt="pearl-harbor" />
+            <a href="#" class="position-absolute bg-light px-3 font-weight-bold text-danger ff-1">CULTURE</a>
+          </div>
+          <h4 class="font-weight-bold py-3 ff-1 m-0 p-0">
+            <a href="" class="text-dark">Pearl Harbor Day 2020: Photos from the Attack</a>
+          </h4>
+          <p>
+            It's been 79 years since the attack on Pearl Harbor, which brought
+            the United States into World War II. These photos from the battle
+            are a stark reminder of those lost.
+          </p>
+        </div>
+        <div class="container-fluid py-3">
+          <div class="position-relative">
+            <img src="./assets/img/pearl-harbor-uss-nevada.jpg" class="img-fluid w-100 h-100" alt="pearl-harbor" />
+            <a href="#" class="position-absolute bg-light px-3 font-weight-bold text-danger ff-1">CULTURE</a>
+          </div>
+          <h4 class="font-weight-bold py-3 ff-1 m-0 p-0">
+            <a href="" class="text-dark">Pearl Harbor Day 2020: Photos from the Attack</a>
+          </h4>
+          <p>
+            It's been 79 years since the attack on Pearl Harbor, which brought
+            the United States into World War II. These photos from the battle
+            are a stark reminder of those lost.
+          </p>
+        </div>
+        <div class="container-fluid py-3">
+          <div class="position-relative">
+            <img src="./assets/img/pearl-harbor-uss-nevada.jpg" class="img-fluid w-100 h-100" alt="pearl-harbor" />
+            <a href="#" class="position-absolute bg-light px-3 font-weight-bold text-danger ff-1">CULTURE</a>
+          </div>
+          <h4 class="font-weight-bold py-3 ff-1 m-0 p-0">
+            <a href="" class="text-dark">Pearl Harbor Day 2020: Photos from the Attack</a>
+          </h4>
+          <p>
+            It's been 79 years since the attack on Pearl Harbor, which brought
+            the United States into World War II. These photos from the battle
+            are a stark reminder of those lost.
+          </p>
+        </div>
+        <div class="container-fluid py-3">
+          <div class="position-relative">
+            <img src="./assets/img/pearl-harbor-uss-nevada.jpg" class="img-fluid w-100 h-100" alt="pearl-harbor" />
+            <a href="#" class="position-absolute bg-light px-3 font-weight-bold text-danger ff-1">CULTURE</a>
+          </div>
+          <h4 class="font-weight-bold py-3 ff-1 m-0 p-0">
+            <a href="" class="text-dark">Pearl Harbor Day 2020: Photos from the Attack</a>
+          </h4>
+          <p>
+            It's been 79 years since the attack on Pearl Harbor, which brought
+            the United States into World War II. These photos from the battle
+            are a stark reminder of those lost.
+          </p>
+        </div>
+        <div class="container-fluid py-3">
+          <div class="position-relative">
+            <img src="./assets/img/pearl-harbor-uss-nevada.jpg" class="img-fluid w-100 h-100" alt="pearl-harbor" />
+            <a href="#" class="position-absolute bg-light px-3 font-weight-bold text-danger ff-1">CULTURE</a>
+          </div>
+          <h4 class="font-weight-bold py-3 ff-1 m-0 p-0">
+            <a href="" class="text-dark">Pearl Harbor Day 2020: Photos from the Attack</a>
+          </h4>
+          <p>
+            It's been 79 years since the attack on Pearl Harbor, which brought
+            the United States into World War II. These photos from the battle
+            are a stark reminder of those lost.
+          </p>
+        </div>
+        <div class="container-fluid py-3">
+          <div class="position-relative">
+            <img src="./assets/img/pearl-harbor-uss-nevada.jpg" class="img-fluid w-100 h-100" alt="pearl-harbor" />
+            <a href="#" class="position-absolute bg-light px-3 font-weight-bold text-danger ff-1">CULTURE</a>
+          </div>
+          <h4 class="font-weight-bold py-3 ff-1 m-0 p-0">
+            <a href="" class="text-dark">Pearl Harbor Day 2020: Photos from the Attack</a>
+          </h4>
+          <p>
+            It's been 79 years since the attack on Pearl Harbor, which brought
+            the United States into World War II. These photos from the battle
+            are a stark reminder of those lost.
+          </p>
+        </div>
+        <div class="container-fluid py-3">
+          <div class="position-relative">
+            <img src="./assets/img/pearl-harbor-uss-nevada.jpg" class="img-fluid w-100 h-100" alt="pearl-harbor" />
+            <a href="#" class="position-absolute bg-light px-3 font-weight-bold text-danger ff-1">CULTURE</a>
+          </div>
+          <h4 class="font-weight-bold py-3 ff-1 m-0 p-0">
+            <a href="" class="text-dark">Pearl Harbor Day 2020: Photos from the Attack</a>
+          </h4>
+          <p>
+            It's been 79 years since the attack on Pearl Harbor, which brought
+            the United States into World War II. These photos from the battle
+            are a stark reminder of those lost.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- U.S. Section -->
+
+    <div class="container-fluid bg-white border-bottom py-5">
+      <h4><a href="#" class="text-danger font-weight-bold">U.S.</a></h4>
+      <div class="d-md-flex">
+        <div class="d-md-flex">
+          <div>
+            <img src="./assets/img/university-arkansas-school-art.jpg" class="img-fluid w-100 h-100 w-reset pr-md-3"
+              alt="university" />
+            <h4>
+              <a href="#" class="text-dark font-weight-bold ff-1">Twitter Jokes That Kelly Loeffler and Ann Coulter Are
+                the Same
+                Person</a>
+            </h4>
+          </div>
+          <div>
+            <img src="./assets/img/university-arkansas-school-art.jpg" class="img-fluid w-100 h-100 w-reset pr-md-3"
+              alt="university" />
+            <h4>
+              <a href="#" class="text-dark font-weight-bold ff-1">Twitter Jokes That Kelly Loeffler and Ann Coulter Are
+                the Same
+                Person</a>
+            </h4>
+          </div>
+        </div>
+
+        <div class="d-md-flex flex-md-column">
+          <div class="d-flex pt-3 pt-md-0 pb-md-3">
+            <img src="./assets/img/rutgers-university-school-health-professions.jpg" class="w-50 h-50 pr-3 reset"
+              alt="" />
+            <div>
+              <a href="#" class="text-dark font-weight-bold ff-1">Giuliani at Least 40th Person in Trump Inner Circle to
+                Contract
+                COVID</a>
+            </div>
+          </div>
+          <div class="d-flex pt-3 middle pb-md-3">
+            <img src="./assets/img/rutgers-university-school-health-professions.jpg" class="w-50 h-50 pr-3 reset"
+              alt="" />
+            <div>
+              <a href="#" class="text-dark font-weight-bold ff-1">Giuliani at Least 40th Person in Trump Inner Circle to
+                Contract
+                COVID</a>
+            </div>
+          </div>
+          <div class="d-flex pt-3">
+            <img src="./assets/img/rutgers-university-school-health-professions.jpg" class="w-50 h-50 pr-3 reset"
+              alt="" />
+            <div>
+              <a href="#" class="text-dark font-weight-bold ff-1">Giuliani at Least 40th Person in Trump Inner Circle to
+                Contract
+                COVID</a>
             </div>
           </div>
         </div>
-        <div class="container-fluid text-center bg-white px-3 py-3 mt-4">
-          <h5 class="text-danger text-left ff-1">NEWSLETTER</h5>
-          <div class="newsletter hf-1"></div>
-          <div class="text-center p-4 border border-top-0 bg-muted">
-            <h5 class="ff-1">THE STARTING 5</h5>
-            <p>
-              See why nearly a quarter of a million subscribers begin their day
-              with the Starting 5.
-            </p>
-            <form action="#">
-              <input type="email" required />
-              <button class="btn btn-danger ff-1">FREE SIGN UP ></button>
-            </form>
+      </div>
+    </div>
+    <!-- World section -->
+    <div class="container-fluid bg-white border-bottom py-5">
+      <h4><a href="#" class="text-danger font-weight-bold">U.S.</a></h4>
+      <div class="d-md-flex">
+        <div class="d-md-flex">
+          <div>
+            <img src="./assets/img/university-arkansas-school-art.jpg" class="img-fluid w-100 h-100 w-reset pr-md-3"
+              alt="university" />
+            <h4>
+              <a href="#" class="text-dark font-weight-bold ff-1">Twitter Jokes That Kelly Loeffler and Ann Coulter Are
+                the Same
+                Person</a>
+            </h4>
+          </div>
+          <div>
+            <img src="./assets/img/university-arkansas-school-art.jpg" class="img-fluid w-100 h-100 w-reset pr-md-3"
+              alt="university" />
+            <h4>
+              <a href="#" class="text-dark font-weight-bold ff-1">Twitter Jokes That Kelly Loeffler and Ann Coulter Are
+                the Same
+                Person</a>
+            </h4>
+          </div>
+        </div>
+
+        <div class="d-md-flex flex-md-column">
+          <div class="d-flex pt-3 pt-md-0 pb-md-3">
+            <img src="./assets/img/rutgers-university-school-health-professions.jpg" class="w-50 h-50 pr-3 reset"
+              alt="" />
+            <div>
+              <a href="#" class="text-dark font-weight-bold ff-1">Giuliani at Least 40th Person in Trump Inner Circle to
+                Contract
+                COVID</a>
+            </div>
+          </div>
+          <div class="d-flex pt-3 middle pb-md-3">
+            <img src="./assets/img/rutgers-university-school-health-professions.jpg" class="w-50 h-50 pr-3 reset"
+              alt="" />
+            <div>
+              <a href="#" class="text-dark font-weight-bold ff-1">Giuliani at Least 40th Person in Trump Inner Circle to
+                Contract
+                COVID</a>
+            </div>
+          </div>
+          <div class="d-flex pt-3">
+            <img src="./assets/img/rutgers-university-school-health-professions.jpg" class="w-50 h-50 pr-3 reset"
+              alt="" />
+            <div>
+              <a href="#" class="text-dark font-weight-bold ff-1">Giuliani at Least 40th Person in Trump Inner Circle to
+                Contract
+                COVID</a>
+            </div>
           </div>
         </div>
       </div>
-    </main>
-    <footer class="container-fluid bg-white mt-4 text-muted">
-      <a href="#"
-        ><img src="./assets/img/logo1.png" class="img-fluid" alt="Logo"
-      /></a>
-      <p>© 2020 NEWSWEEK DIGITAL LLC</p>
-      <div>
-        <div class="d-flex">
-          <h4 class="px-1">
-            <i class="fa fa-facebook-official" aria-hidden="true"></i>
-          </h4>
-          <h4 class="px-1"><i class="fa fa-twitter" aria-hidden="true"></i></h4>
-          <h4 class="px-1">
-            <i class="fa fa-instagram" aria-hidden="true"></i>
-          </h4>
-          <h4 class="px-1"><i class="fa fa-tumblr" aria-hidden="true"></i></h4>
-          <h4 class="px-1">
-            <i class="fa fa-linkedin" aria-hidden="true"></i>
-          </h4>
+    </div>
+    <!-- BUSINESS -->
+    <div class="container-fluid bg-white border-bottom py-5">
+      <h4><a href="#" class="text-danger font-weight-bold">U.S.</a></h4>
+      <div class="d-md-flex">
+        <div class="d-md-flex">
+          <div>
+            <img src="./assets/img/university-arkansas-school-art.jpg" class="img-fluid w-100 h-100 w-reset pr-md-3"
+              alt="university" />
+            <h4>
+              <a href="#" class="text-dark font-weight-bold ff-1">Twitter Jokes That Kelly Loeffler and Ann Coulter Are
+                the Same
+                Person</a>
+            </h4>
+          </div>
+          <div>
+            <img src="./assets/img/university-arkansas-school-art.jpg" class="img-fluid w-100 h-100 w-reset pr-md-3"
+              alt="university" />
+            <h4>
+              <a href="#" class="text-dark font-weight-bold ff-1">Twitter Jokes That Kelly Loeffler and Ann Coulter Are
+                the Same
+                Person</a>
+            </h4>
+          </div>
         </div>
-      </div>
-      <div class="border-top pt-2">
-        <div class="d-flex justify-content-between">
-          Editions:
-          <a class="text-muted" href="#">U.S. Edition</a>
-          <a class="text-muted" href="#">日本</a>
-          <a class="text-muted" href="#">Pakistan</a>
-          <a class="text-muted" href="#">Polska</a>
-          <a class="text-muted" href="#">Romania</a>
-        </div>
-        <div class="d-flex flex-wrap">
-          <a class="text-muted border-right px-2" href="#">About Us</a>
-          <a class="text-muted border-right px-2" href="#">Correction</a>
-          <a class="text-muted border-right px-2" href="#">Contact Us</a>
-          <a class="text-muted border-right px-2" href="#"
-            >Editorial Guidelines</a
-          >
-          <a class="text-muted border-right px-2" href="#">Advertise</a>
-          <a class="text-muted border-right px-2" href="#">Copyright</a>
-          <a class="text-muted border-right px-2" href="#"
-            >Terms and Conditions</a
-          >
-          <a class="text-muted border-right px-2" href="#">Privacy Policies</a>
-          <a class="text-muted border-right px-2" href="#">Cookie Policies</a>
-          <a class="text-muted border-right px-2" href="#">Terms of Sale</a>
-          <a class="text-muted border-right px-2" href="#">Archaive</a>
-          <a class="text-muted border-right px-2" href="#">Announcements</a>
-        </div>
-      </div>
-    </footer>
 
-    <script
-      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+        <div class="d-md-flex flex-md-column">
+          <div class="d-flex pt-3 pt-md-0 pb-md-3">
+            <img src="./assets/img/rutgers-university-school-health-professions.jpg" class="w-50 h-50 pr-3 reset"
+              alt="" />
+            <div>
+              <a href="#" class="text-dark font-weight-bold ff-1">Giuliani at Least 40th Person in Trump Inner Circle to
+                Contract
+                COVID</a>
+            </div>
+          </div>
+          <div class="d-flex pt-3 middle pb-md-3">
+            <img src="./assets/img/rutgers-university-school-health-professions.jpg" class="w-50 h-50 pr-3 reset"
+              alt="" />
+            <div>
+              <a href="#" class="text-dark font-weight-bold ff-1">Giuliani at Least 40th Person in Trump Inner Circle to
+                Contract
+                COVID</a>
+            </div>
+          </div>
+          <div class="d-flex pt-3">
+            <img src="./assets/img/rutgers-university-school-health-professions.jpg" class="w-50 h-50 pr-3 reset"
+              alt="" />
+            <div>
+              <a href="#" class="text-dark font-weight-bold ff-1">Giuliani at Least 40th Person in Trump Inner Circle to
+                Contract
+                COVID</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- TECH AND SCIENCE -->
+    <div class="container-fluid bg-white border-bottom py-5">
+      <h4><a href="#" class="text-danger font-weight-bold">U.S.</a></h4>
+      <div class="d-md-flex">
+        <div class="d-md-flex">
+          <div>
+            <img src="./assets/img/university-arkansas-school-art.jpg" class="img-fluid w-100 h-100 w-reset pr-md-3"
+              alt="university" />
+            <h4>
+              <a href="#" class="text-dark font-weight-bold ff-1">Twitter Jokes That Kelly Loeffler and Ann Coulter Are
+                the Same
+                Person</a>
+            </h4>
+          </div>
+          <div>
+            <img src="./assets/img/university-arkansas-school-art.jpg" class="img-fluid w-100 h-100 w-reset pr-md-3"
+              alt="university" />
+            <h4>
+              <a href="#" class="text-dark font-weight-bold ff-1">Twitter Jokes That Kelly Loeffler and Ann Coulter Are
+                the Same
+                Person</a>
+            </h4>
+          </div>
+        </div>
+
+        <div class="d-md-flex flex-md-column">
+          <div class="d-flex pt-3 pt-md-0 pb-md-3">
+            <img src="./assets/img/rutgers-university-school-health-professions.jpg" class="w-50 h-50 pr-3 reset"
+              alt="" />
+            <div>
+              <a href="#" class="text-dark font-weight-bold ff-1">Giuliani at Least 40th Person in Trump Inner Circle to
+                Contract
+                COVID</a>
+            </div>
+          </div>
+          <div class="d-flex pt-3 middle pb-md-3">
+            <img src="./assets/img/rutgers-university-school-health-professions.jpg" class="w-50 h-50 pr-3 reset"
+              alt="" />
+            <div>
+              <a href="#" class="text-dark font-weight-bold ff-1">Giuliani at Least 40th Person in Trump Inner Circle to
+                Contract
+                COVID</a>
+            </div>
+          </div>
+          <div class="d-flex pt-3">
+            <img src="./assets/img/rutgers-university-school-health-professions.jpg" class="w-50 h-50 pr-3 reset"
+              alt="" />
+            <div>
+              <a href="#" class="text-dark font-weight-bold ff-1">Giuliani at Least 40th Person in Trump Inner Circle to
+                Contract
+                COVID</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- CULTURE -->
+    <div class="container-fluid bg-white border-bottom py-5">
+      <h4><a href="#" class="text-danger font-weight-bold">U.S.</a></h4>
+      <div class="d-md-flex">
+        <div class="d-md-flex">
+          <div>
+            <img src="./assets/img/university-arkansas-school-art.jpg" class="img-fluid w-100 h-100 w-reset pr-md-3"
+              alt="university" />
+            <h4>
+              <a href="#" class="text-dark font-weight-bold ff-1">Twitter Jokes That Kelly Loeffler and Ann Coulter Are
+                the Same
+                Person</a>
+            </h4>
+          </div>
+          <div>
+            <img src="./assets/img/university-arkansas-school-art.jpg" class="img-fluid w-100 h-100 w-reset pr-md-3"
+              alt="university" />
+            <h4>
+              <a href="#" class="text-dark font-weight-bold ff-1">Twitter Jokes That Kelly Loeffler and Ann Coulter Are
+                the Same
+                Person</a>
+            </h4>
+          </div>
+        </div>
+
+        <div class="d-md-flex flex-md-column">
+          <div class="d-flex pt-3 pt-md-0 pb-md-3">
+            <img src="./assets/img/rutgers-university-school-health-professions.jpg" class="w-50 h-50 pr-3 reset"
+              alt="" />
+            <div>
+              <a href="#" class="text-dark font-weight-bold ff-1">Giuliani at Least 40th Person in Trump Inner Circle to
+                Contract
+                COVID</a>
+            </div>
+          </div>
+          <div class="d-flex pt-3 middle pb-md-3">
+            <img src="./assets/img/rutgers-university-school-health-professions.jpg" class="w-50 h-50 pr-3 reset"
+              alt="" />
+            <div>
+              <a href="#" class="text-dark font-weight-bold ff-1">Giuliani at Least 40th Person in Trump Inner Circle to
+                Contract
+                COVID</a>
+            </div>
+          </div>
+          <div class="d-flex pt-3">
+            <img src="./assets/img/rutgers-university-school-health-professions.jpg" class="w-50 h-50 pr-3 reset"
+              alt="" />
+            <div>
+              <a href="#" class="text-dark font-weight-bold ff-1">Giuliani at Least 40th Person in Trump Inner Circle to
+                Contract
+                COVID</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- SPORTS -->
+    <div class="container-fluid bg-white border-bottom py-5">
+      <h4><a href="#" class="text-danger font-weight-bold">U.S.</a></h4>
+      <div class="d-md-flex">
+        <div class="d-md-flex">
+          <div>
+            <img src="./assets/img/university-arkansas-school-art.jpg" class="img-fluid w-100 h-100 w-reset pr-md-3"
+              alt="university" />
+            <h4>
+              <a href="#" class="text-dark font-weight-bold ff-1">Twitter Jokes That Kelly Loeffler and Ann Coulter Are
+                the Same
+                Person</a>
+            </h4>
+          </div>
+          <div>
+            <img src="./assets/img/university-arkansas-school-art.jpg" class="img-fluid w-100 h-100 w-reset pr-md-3"
+              alt="university" />
+            <h4>
+              <a href="#" class="text-dark font-weight-bold ff-1">Twitter Jokes That Kelly Loeffler and Ann Coulter Are
+                the Same
+                Person</a>
+            </h4>
+          </div>
+        </div>
+
+        <div class="d-md-flex flex-md-column">
+          <div class="d-flex pt-3 pt-md-0 pb-md-3">
+            <img src="./assets/img/rutgers-university-school-health-professions.jpg" class="w-50 h-50 pr-3 reset"
+              alt="" />
+            <div>
+              <a href="#" class="text-dark font-weight-bold ff-1">Giuliani at Least 40th Person in Trump Inner Circle to
+                Contract
+                COVID</a>
+            </div>
+          </div>
+          <div class="d-flex pt-3 middle pb-md-3">
+            <img src="./assets/img/rutgers-university-school-health-professions.jpg" class="w-50 h-50 pr-3 reset"
+              alt="" />
+            <div>
+              <a href="#" class="text-dark font-weight-bold ff-1">Giuliani at Least 40th Person in Trump Inner Circle to
+                Contract
+                COVID</a>
+            </div>
+          </div>
+          <div class="d-flex pt-3">
+            <img src="./assets/img/rutgers-university-school-health-professions.jpg" class="w-50 h-50 pr-3 reset"
+              alt="" />
+            <div>
+              <a href="#" class="text-dark font-weight-bold ff-1">Giuliani at Least 40th Person in Trump Inner Circle to
+                Contract
+                COVID</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+
+    <!-- Subscribe + newsletter section -->
+    <div>
+      <div class="text-center bg-white py-4 px-3">
+        <h4 class="text-danger text-left px-2 font-weight-bold ff-1">
+          SUBSCRIBE
+        </h4>
+        <div class="bg-secondary">
+          <div class="position-relative">
+            <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+            <img src="./assets/img/cover-november-27-2020.jpg" class="position-absolute w-35 cover_a" alt="november" />
+            <img src="./assets/img/cover-december-04-11-2020.jpg" class="position-absolute w-35 cover_b"
+              alt="december" />
+          </div>
+          <div>
+            <h5 class="ff-1">
+              In-depth Stories You Don't See Elsewhere About Topics You Want
+              to Read!
+            </h5>
+            <p>
+              All Access + Weekly Delivery. Choose A Membership That's Perfect
+              for You!
+            </p>
+            <a href="#" class="btn btn-danger ff-1 mt-4">SUBSCRIBE</a>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid text-center bg-white px-3 py-3 mt-4">
+        <h5 class="text-danger text-left ff-1">NEWSLETTER</h5>
+        <div class="newsletter hf-1"></div>
+        <div class="text-center p-4 border border-top-0 bg-muted">
+          <h5 class="ff-1">THE STARTING 5</h5>
+          <p>
+            See why nearly a quarter of a million subscribers begin their day
+            with the Starting 5.
+          </p>
+          <form action="#">
+            <input type="email" required />
+            <button class="btn btn-danger ff-1">FREE SIGN UP ></button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer class="container-fluid bg-white mt-4 text-muted">
+    <a href="#"><img src="./assets/img/logo1.png" class="img-fluid" alt="Logo" /></a>
+    <p>© 2020 NEWSWEEK DIGITAL LLC</p>
+    <div>
+      <div class="d-flex">
+        <h4 class="px-1">
+          <i class="fa fa-facebook-official" aria-hidden="true"></i>
+        </h4>
+        <h4 class="px-1"><i class="fa fa-twitter" aria-hidden="true"></i></h4>
+        <h4 class="px-1">
+          <i class="fa fa-instagram" aria-hidden="true"></i>
+        </h4>
+        <h4 class="px-1"><i class="fa fa-tumblr" aria-hidden="true"></i></h4>
+        <h4 class="px-1">
+          <i class="fa fa-linkedin" aria-hidden="true"></i>
+        </h4>
+      </div>
+    </div>
+    <div class="border-top pt-2">
+      <div class="d-flex justify-content-between">
+        Editions:
+        <a class="text-muted" href="#">U.S. Edition</a>
+        <a class="text-muted" href="#">日本</a>
+        <a class="text-muted" href="#">Pakistan</a>
+        <a class="text-muted" href="#">Polska</a>
+        <a class="text-muted" href="#">Romania</a>
+      </div>
+      <div class="d-flex flex-wrap">
+        <a class="text-muted border-right px-2" href="#">About Us</a>
+        <a class="text-muted border-right px-2" href="#">Correction</a>
+        <a class="text-muted border-right px-2" href="#">Contact Us</a>
+        <a class="text-muted border-right px-2" href="#">Editorial Guidelines</a>
+        <a class="text-muted border-right px-2" href="#">Advertise</a>
+        <a class="text-muted border-right px-2" href="#">Copyright</a>
+        <a class="text-muted border-right px-2" href="#">Terms and Conditions</a>
+        <a class="text-muted border-right px-2" href="#">Privacy Policies</a>
+        <a class="text-muted border-right px-2" href="#">Cookie Policies</a>
+        <a class="text-muted border-right px-2" href="#">Terms of Sale</a>
+        <a class="text-muted border-right px-2" href="#">Archaive</a>
+        <a class="text-muted border-right px-2" href="#">Announcements</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
+  </script>
+</body>
+
 </html>
