@@ -16,43 +16,67 @@
 
 <body data-spy="scroll" data-target="#first-articles">
   <!-- Navbar -->
-  <nav class="m-0 p-0 bg-danger container-fluid d-flex justify-content-between">
-    <a href="#">
-      <img src="./assets/img/logo1.png" class="img-fluid" alt="Logo" />
-    </a>
+  <nav class="">
+    <div class="nav-mobile m-0 p-0 bg-danger container-fluid d-flex justify-content-between d-lg-none d-md-flex">
+      <a href="#">
+        <img src="./assets/img/logo1.png" class="img-fluid" alt="Logo" />
+      </a>
 
-    <div class="d-flex align-items-center">
-      <i class="fa fa-user mx-3 text-white" aria-hidden="true"></i>
-      <button class="btn btn-warning badge-pill p-0 px-1 font-weight-bold ff-1">
-        SUBSCRIBE >
-      </button>
-      <i class="fa fa-bars mx-3 text-white" aria-hidden="true"></i>
-    </div>
-
-    <div class="nav-links">
-      <div>
-        <a href="#">U.S.</a>
-        <a href="#">U.S.</a>
-        <a href="#">U.S.</a>
-        <a href="#">U.S.</a>
-        <a href="#">U.S.</a>
-        <a href="#">U.S.</a>
-        <a href="#">U.S.</a>
-        <a href="#">U.S.</a>
-        <a href="#">U.S.</a>
-        <a href="#">U.S.</a>
-        <a href="#">U.S.</a>
-        <i></i>
-      </div>
-      <div>
-        <a href="#">TRENDING</a>
-        <a href="#">TRENDING</a>
-        <a href="#">TRENDING</a>
-        <a href="#">TRENDING</a>
-        <a href="#">TRENDING</a>
-        <a href="#">TRENDING</a>
+      <div class="d-flex align-items-center">
+        <i class="fa fa-user mx-3 text-white" aria-hidden="true"></i>
+        <button class="btn btn-warning badge-pill p-0 px-1 font-weight-bold ff-1">
+          SUBSCRIBE >
+        </button>
+        <i class="fa fa-bars mx-3 text-white" aria-hidden="true"></i>
       </div>
     </div>
+
+    <div class="nav-desk m-0 p-0 bg-danger container-fluid d-flex justify-content-between flex-column d-lg-flex d-md-none">
+      <div class="nav-top d-flex justify-content-between">
+        <div class="date-info">
+          <a href="#">
+            <i class="fa fa-cloud" aria-hidden="true"></i> 24° Embu das Artes, BR >
+          </a>
+          <p>
+            Wed, Dec 09, 2020
+          </p>
+        </div>
+        <a href="#">
+          <img src="./assets/img/logo1.png" class="img-fluid h-100 w-100" alt="Logo" />
+        </a>
+        <div class="d-flex align-items-center">
+          <a href="#">LOGIN</a>
+          <button class="btn btn-warning badge-pill p-0 px-1 font-weight-bold ff-1">
+            SUBSCRIBE >
+          </button>
+        </div>
+      </div>
+      <div class="bg-light">
+        <div class="pr-5 mr-5 d-flex justify-content-between py-2">
+          <a class="text-dark ff-1 px-3" href="#">U.S.</a>
+          <a class="text-dark ff-1 px-3 border-left" href="#">World</a>
+          <a class="text-dark ff-1 px-3 border-left" href="#">Tech & Science</a>
+          <a class="text-dark ff-1 px-3 border-left" href="#">Culture</a>
+          <a class="text-dark ff-1 px-3 border-left" href="#">Newsgeek</a>
+          <a class="text-dark ff-1 px-3 border-left" href="#">Sports</a>
+          <a class="text-dark ff-1 px-3 border-left" href="#">Health</a>
+          <a class="text-dark ff-1 px-3 border-left" href="#">The Debate</a>
+          <a class="text-dark ff-1 px-3 border-left" href="#">Vantage</a>
+          <a class="text-dark ff-1 px-3 border-left" href="#">Weather</a>
+          <span>Search</span>
+          <i class="fa fa-search" aria-hidden="true"></i>
+        </div>
+        <div class="ml-4 border-top border-bottom py-2">
+          <a class="text-dark ff-1 px-3"href="#">TRENDING</a>
+          <a class="text-dark ff-1 px-3"href="#">JOE BIDEN</a>
+          <a class="text-dark ff-1 px-3"href="#">DONALD TRUMP</a>
+          <a class="text-dark ff-1 px-3"href="#">2020 ELECTION</a>
+          <a class="text-dark ff-1 px-3"href="#">CORONAVIRUS</a>
+          <a class="text-dark ff-1 px-3"href="#">STIMULUS PACKAGE</a>
+        </div>
+      </div>
+    </div>
+
   </nav>
 
   <main class="bg-secondary">
