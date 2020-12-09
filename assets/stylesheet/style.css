@@ -131,11 +131,11 @@ p{
         grid-area: opinion;
     } */
 
-    .left-column{
+    /* .left-column{
         position: sticky;
         top: 0;
         bottom: 1000px;
-    }
+    } */
 
     /* .middle-column{
         bottom: 0;
