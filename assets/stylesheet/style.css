@@ -203,7 +203,23 @@ p{
         width: 650px;
     }
 
+    .abs-img{
+        position: relative;
+    }
+
+    .cover_b{
+        position: absolute;
+        left: 49%;
+        top: 5%;
+        height: 90%;
+    }
+    
+    
+    .sub-sec{
+        height: 600px !important;
+    }
+
     .w-35 {
-        width: 15%;
+        width: 45%;
     }
 }
