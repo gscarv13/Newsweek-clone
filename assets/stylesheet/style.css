@@ -17,8 +17,8 @@ p {
   font-size: 16px;
 }
 
-.bg-secondary {
-  background: #f4f5f6 !important;
+.bg-clear-white {
+  background: #f4f5f6;
 }
 
 .ff-1 {
@@ -29,13 +29,15 @@ p {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.bg-danger,
-.btn-danger {
-  background-color: #f72210 !important;
+.bg-main,
+.btn-main {
+  background-color: #f72210;
+  color: #fff;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
-.text-danger {
-  color: #f72210 !important;
+.text-main {
+  color: #f72210;
 }
 
 .nav-links {
@@ -47,12 +49,12 @@ p {
   bottom: 0;
 }
 
-.btn-warning {
-  background-color: #ffe400 !important;
+.btn-yellow {
+  background-color: #ffe400;
 }
 
-.text-dark {
-  color: #000 !important;
+.text-pure-black {
+  color: #000;
 }
 
 .w-35 {
@@ -60,7 +62,7 @@ p {
 }
 
 .hf-1 {
-  height: 170px !important;
+  height: 170px;
 }
 
 .vs {
@@ -111,17 +113,17 @@ p {
 }
 
 @media screen and (max-width: 767px) {
+
+  /* Without the important the navbar breaks on mobile view, d-sm-none does not work */
+
   .nav-desk {
     display: none !important;
   }
 
   .nav-mobile {
-    display: flex !important;
+    display: flex
   }
 
-  .d-mobile-none {
-    display: none !important;
-  }
 }
 
 @media screen and (min-width: 768px) {
@@ -134,7 +136,9 @@ p {
     padding-top: 10px;
   }
 
-  .h-md-0 {
+  /* Removing the important from this section will break the layout */
+
+  .magazine-images {
     height: 188px !important;
     width: 188px !important;
   }
@@ -150,10 +154,14 @@ p {
     grid-template-rows: 1fr 1fr 1fr 1fr;
   }
 
+  /* Removing the important from this section will break the layout */
+
   .w-reset {
     width: 100% !important;
     height: auto !important;
   }
+
+  /* Removing the important from this section will break the layout */
 
   .reset {
     width: 50% !important;
@@ -161,12 +169,11 @@ p {
   }
 
   .middle {
-    border-top: solid 0.5px #d9d9d9 !important;
-    border-bottom: solid 0.5px #d9d9d9 !important;
+    border-top: solid 0.5px #d9d9d9;
+    border-bottom: solid 0.5px #d9d9d9;
   }
 
   .abs-img {
-    display: inline-block !important;
     position: relative;
     height: 228px;
     width: 170px;
@@ -193,7 +200,7 @@ p {
   }
 
   .sub-text {
-    text-align: left !important;
+    text-align: left;
   }
 
   .sub-text p {
@@ -201,21 +208,21 @@ p {
   }
 
   .sub-text h5 {
-    font-size: 28px !important;
+    font-size: 28px;
   }
 
   .newsletter {
     background-image: url("../img/starting5-homepage.png");
     background-repeat: no-repeat;
-    height: 230px !important;
+    height: 230px;
   }
 
-  .d-desk-none {
-    display: none !important;
-  }
 }
 
 @media screen and (min-width: 992px) {
+
+  /* Removing the important from this section will break the layout */
+
   .img-mag {
     width: auto !important;
     height: 320px !important;
@@ -228,11 +235,6 @@ p {
     gap: 2px;
   }
 
-  .h-md-0 {
-    height: 235.98px !important;
-    width: 235.98px !important;
-  }
-
   .side-menu {
     width: 650px;
   }
@@ -240,6 +242,8 @@ p {
   .abs-img {
     position: relative;
   }
+
+  /* Removing the important from this section will break the layout */
 
   .cover_b {
     position: absolute;
@@ -255,10 +259,6 @@ p {
     bottom: 0;
     width: 160px !important;
     height: 217px;
-  }
-
-  .sub-sec {
-    height: 600px !important;
   }
 
   .w-35 {
@@ -277,7 +277,7 @@ p {
   .newsletter {
     background-image: url("../img/starting5-homepage.png");
     background-repeat: no-repeat;
-    height: 300px !important;
+    height: 300px;
   }
 
   .large-screen {
@@ -286,13 +286,15 @@ p {
   }
 
   .start {
-    height: 350px !important;
+    height: 350px;
     width: auto;
   }
 
   .input-button {
     width: 100%;
   }
+
+  /* Removing the important from this section will break the layout */
 
   .border-news {
     border: none !important;
