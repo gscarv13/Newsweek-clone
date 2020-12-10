@@ -119,7 +119,7 @@ p {
     display: flex !important;
   }
 
-  .d-mobile-none{
+  .d-mobile-none {
     display: none !important;
   }
 }
@@ -210,7 +210,7 @@ p {
     height: 230px !important;
   }
 
-  .d-desk-none{
+  .d-desk-none {
     display: none !important;
   }
 }
