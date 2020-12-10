@@ -231,7 +231,7 @@ p{
         font-size: 28px !important;
     }
 
-    newsletter {
+    .newsletter {
         background-image: url('/assets/img/starting5-homepage.png');
         background-repeat: no-repeat;
         height: 230px !important;
@@ -289,14 +289,13 @@ p{
    .newsletter {
     background-image: url('/assets/img/starting5-homepage.png');
     background-repeat: no-repeat;
-    height: 350px !important;
+    height: 300px !important;
     
 } 
 
    .large-screen {
        height: 400px;
-       width: 100%;
-       padding-left: 20%;
+       width: 400px;
        
 
    }
@@ -306,4 +305,7 @@ p{
        width: auto;
    }
    
+   .input-button {
+       width: 100%;
+   }
 }
