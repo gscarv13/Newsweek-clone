@@ -113,7 +113,6 @@ p {
 }
 
 @media screen and (max-width: 767px) {
-
   /* Without the important the navbar breaks on mobile view, d-sm-none does not work */
 
   .nav-desk {
@@ -121,9 +120,8 @@ p {
   }
 
   .nav-mobile {
-    display: flex
+    display: flex;
   }
-
 }
 
 @media screen and (min-width: 768px) {
@@ -216,11 +214,9 @@ p {
     background-repeat: no-repeat;
     height: 230px;
   }
-
 }
 
 @media screen and (min-width: 992px) {
-
   /* Removing the important from this section will break the layout */
 
   .img-mag {
