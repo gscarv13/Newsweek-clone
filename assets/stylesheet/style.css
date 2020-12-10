@@ -124,7 +124,7 @@ p {
 
 @media screen and (max-width: 767px) {
   .nav-desk {
-    display: none !important;
+    display: none;
   }
 
   .nav-mobile {
@@ -212,6 +212,10 @@ p {
     background-repeat: no-repeat;
     height: 230px;
   }
+
+  .nav-desk{
+    display: none;
+  }
 }
 
 @media screen and (min-width: 992px) {
@@ -286,5 +290,11 @@ p {
 
   .border-news {
     border: none;
+  }
+
+  .nav-desk{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
   }
 }
