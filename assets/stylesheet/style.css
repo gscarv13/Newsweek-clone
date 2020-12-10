@@ -201,7 +201,7 @@ p {
   }
 
   .newsletter {
-    background-image: url("/assets/img/starting5-homepage.png");
+    background-image: url("../assets/img/starting5-homepage.png");
     background-repeat: no-repeat;
     height: 230px !important;
   }
@@ -267,7 +267,7 @@ p {
   }
 
   .newsletter {
-    background-image: url("/assets/img/starting5-homepage.png");
+    background-image: url("../assets/img/starting5-homepage.png");
     background-repeat: no-repeat;
     height: 300px !important;
   }
