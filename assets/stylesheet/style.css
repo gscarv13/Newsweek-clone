@@ -118,6 +118,10 @@ p {
   .nav-mobile {
     display: flex !important;
   }
+
+  .d-mobile-none{
+    display: none !important;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -204,6 +208,10 @@ p {
     background-image: url("../img/starting5-homepage.png");
     background-repeat: no-repeat;
     height: 230px !important;
+  }
+
+  .d-desk-none{
+    display: none !important;
   }
 }
 
