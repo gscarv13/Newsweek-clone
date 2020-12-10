@@ -4,7 +4,7 @@
 
 > HTML & CSS 2.0 - Project 3: Using Bootstrap
 
-![screenshot](./assets/img/screenshot-home-page.png)
+![screenshot](./assets/img/screenshot-home-page.PNG)
 
  The project was designed as a repilca of the [Newsweek](https://www.newsweek.com/) online Newspaper page. 
  The purpose is to capture as much as possible every segment of the page to look exactly like the original.
@@ -40,9 +40,9 @@ To get a local copy up and running follow these simple example steps:
 ## Authors
 
 👤 **George Gbenle**:
--Github profile- [@george-shammar](https://github.com/george-shammar)
--Twitter - [@GeorgeShammar](https://twitter.com/GeorgeShammar)
--linkedin -[George Gbenle](https://www.linkedin.com/in/george-g-5414091b7/)
+- Github profile: [@george-shammar](https://github.com/george-shammar)
+- Twitter: [@GeorgeShammar](https://twitter.com/GeorgeShammar)
+- linkedin: [George Gbenle](https://www.linkedin.com/in/george-g-5414091b7/)
 
 
 👤 **Gustavo Silva de Carvalho**
