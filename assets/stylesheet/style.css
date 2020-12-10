@@ -213,7 +213,7 @@ p {
     height: 230px;
   }
 
-  .nav-desk{
+  .nav-desk {
     display: none;
   }
 }
@@ -292,7 +292,7 @@ p {
     border: none;
   }
 
-  .nav-desk{
+  .nav-desk {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
