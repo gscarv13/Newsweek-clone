@@ -105,8 +105,10 @@ p {
 }
 
 .newsletter {
-  background: url("/assets/img/starting5-homepage.png") center center / cover
-    no-repeat;
+  background-image: url("/assets/img/starting5-homepage.png"); 
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 @media screen and (max-width: 767px) {
