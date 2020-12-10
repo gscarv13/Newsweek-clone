@@ -122,53 +122,7 @@ p{
 }
 
 @media screen and (min-width: 768px){
-    /* .grid{
-        display: grid;
-        grid-template-areas: 
-        'featured tops'
-        'featured turn'
-        'featured more'
-        'debate debate'
-        'opinion opinion';
-        justify-content: stretch;
-    }
-
-    .FSG{
-        grid-area: featured;
-    }
-    
-    .TSG{
-        grid-area: tops;
-    }
-
-    .MTG{
-        grid-area: turn;
-    }
-
-    .MSG{
-        grid-area: more;
-    }
-
-    .TDG{
-        width: 100%;
-        grid-area: debate;
-    }
-
-    .OPG{
-        grid-area: opinion;
-    } */
-
-    /* .left-column{
-        position: sticky;
-        top: 0;
-        bottom: 1000px;
-    } */
-
-    /* .middle-column{
-        bottom: 0;
-        position: sticky;
-    } */
-
+   
     .magazine {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
