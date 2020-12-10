@@ -279,13 +279,25 @@ p{
         height:60px;
     }
 
-    
+     
    .newsletter {
     background-image: url('/assets/img/starting5-homepage.png');
-    height: 100%;
-    width: 100%;
     background-repeat: no-repeat;
-    background-position: center;
+    height: 350px !important;
+    
 } 
+
+   .large-screen {
+       height: 400px;
+       width: 100%;
+       padding-left: 20%;
+       
+
+   }
+   
+   .start {
+       height: 350px !important;
+       width: auto;
+   }
    
 }
