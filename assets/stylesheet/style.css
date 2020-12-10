@@ -79,15 +79,31 @@ p{
     height: 1px;
 }
 
-.cover_a {
-    left: 120px;
-    bottom: 20px;
-
+.abs-img{
+    margin: 0 auto;
+    position: relative;
+    height:228px;
+    width:170px;
 }
 
-.cover_b {
-    bottom: 10px;
-    left: 170px;
+.cover_b{
+    position: absolute;
+    left: 20%;
+    top: 10%;
+    width:160px;
+    height: 217px;
+}
+
+.cover_a{
+    position: absolute;
+    left: -20%;
+    bottom: 0;
+    width:160px;
+    height: 217px;
+}
+
+.sub-text h5{
+    margin-top: 20px;
 }
 
  .newsletter{
@@ -163,7 +179,8 @@ p{
     }
 
     .h-md-0 {
-        height: 170px !important;
+        height: 188px !important;
+        width: 188px !important;
     }
 
     .mag-border {
@@ -203,16 +220,16 @@ p{
         position: absolute;
         left: 30%;
         top: 10%;
-        width:50%;
-        height: auto;
+        width:160px;
+        height: 217px;
     }
 
     .cover_a{
         position: absolute;
         left: 10%;
         bottom: 0;
-        width: 58%;
-        height: auto;
+        width:160px;
+        height: 217px;
     }
 
     .sub-container{
@@ -253,6 +270,11 @@ p{
         gap: 2px;
     }
 
+    .h-md-0 {
+        height: 235.98px !important;
+        width: 235.98px !important;
+    }
+
     .side-menu {
         width: 650px;
     }
@@ -263,9 +285,18 @@ p{
 
     .cover_b{
         position: absolute;
-        left: 49%;
-        top: 5%;
-        height: 90%;
+        left: 30%;
+        top: 10%;
+        width: 160px !important;
+        height: 217px;
+    }
+
+    .cover_a{
+        position: absolute;
+        left: 10%;
+        bottom: 0;
+        width: 160px !important;
+        height: 217px;
     }
     
     .sub-sec{
