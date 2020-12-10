@@ -1,22 +1,8 @@
 # Newsweek-clone
 
-
-
- Table of Contents
- # Title of project.
- # About the project and purpose of the project.
- # Technologoes used.
- # Project contributors.
- # Important markup elements of the project.
- # Important styling rules of the project.
- 
- ------------
-
-
 # Project Title:
 
- The Title of the project is the Newsweek clone.
-
+ The Title of the project is the Newsweek-clone.
  --------
 
 
@@ -40,12 +26,12 @@
 
  The live version of the project can be seen at: 
 
-
  ---------
 
 
  
  Below are the contributors to the project: 
+
   ** George Gbenle:
       -Github profile- @george-shammar (https://github.com/george-shammar)
       -Twitter - @GeorgeShammar
@@ -57,28 +43,22 @@
      - Twitter: [@Gscarv13](https://twitter.com/Gscarv13)
      - LinkedIn: [Gustavo Carvalho](https://www.linkedin.com/in/gustavo-silva-de-carvalho-72998a156/)
     
-    -------
  Both contributors acted as driver and navigator intermittently through out the project.
 
 
 **Contributing:**
-
-----
 Contributions and feature requests are welcome!  
+ ------
 
 **Issues:**
-
-----
 Issue request are welcome!  
+ ------
 
 **Feel free to check the link:**
-
-----
 The original page: https://www.newsweek.com/
+ ------
 
 **Show your support**
-
-----
 Give a star if you like this project!  
 
 
