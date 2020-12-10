@@ -1,296 +1,287 @@
 p {
-    font-size: 13px;
-    font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .ms-p {
-    line-height: 16px;
+  line-height: 16px;
 }
 
 .lh {
-    font-size: 17px;
-    line-height: 20px;
+  font-size: 17px;
+  line-height: 20px;
 }
 
 .section-header {
-    color: rgba(3, 3, 3, .4);
-    font-size: 16px;
+  color: rgba(3, 3, 3, 0.4);
+  font-size: 16px;
 }
 
 .bg-secondary {
-    background: #f4f5f6 !important;
+  background: #f4f5f6 !important;
 }
 
 .ff-1 {
-    font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 .ff-2 {
-    font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .bg-danger,
 .btn-danger {
-    background-color: #f72210 !important;
+  background-color: #f72210 !important;
 }
 
 .text-danger {
-    color: #f72210 !important;
+  color: #f72210 !important;
 }
 
-
 .nav-links {
-    display: none;
+  display: none;
 }
 
 .position-relative a {
-    left: 0;
-    bottom: 0;
+  left: 0;
+  bottom: 0;
 }
 
 .btn-warning {
-    background-color: #ffe400 !important;
+  background-color: #ffe400 !important;
 }
 
-
 .text-dark {
-    color: #000 !important;
+  color: #000 !important;
 }
 
 .w-35 {
-    width: 35%;
+  width: 35%;
 }
 
 .hf-1 {
-    height: 170px !important;
+  height: 170px !important;
 }
 
 .vs {
-    background-color: #000;
-    color: #fff;
-    border-radius: 100%;
-    left: 45%;
-    bottom: -33px;
+  background-color: #000;
+  color: #fff;
+  border-radius: 100%;
+  left: 45%;
+  bottom: -33px;
 }
 
 .debate-hr {
-    border-top: solid 1px #dee2e6;
-    border-bottom: solid 1px #dee2e6;
-    height: 1px;
+  border-top: solid 1px #dee2e6;
+  border-bottom: solid 1px #dee2e6;
+  height: 1px;
 }
 
 .abs-img {
-    margin: 0 auto;
-    position: relative;
-    height: 228px;
-    width: 170px;
+  margin: 0 auto;
+  position: relative;
+  height: 228px;
+  width: 170px;
 }
 
 .cover_b {
-    position: absolute;
-    left: 20%;
-    top: 10%;
-    width: 160px;
-    height: 217px;
+  position: absolute;
+  left: 20%;
+  top: 10%;
+  width: 160px;
+  height: 217px;
 }
 
 .cover_a {
-    position: absolute;
-    left: -20%;
-    bottom: 0;
-    width: 160px;
-    height: 217px;
+  position: absolute;
+  left: -20%;
+  bottom: 0;
+  width: 160px;
+  height: 217px;
 }
 
 .sub-text h5 {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 .newsletter {
-    background: url('/assets/img/starting5-homepage.png') center center / cover no-repeat;
-
+  background: url("/assets/img/starting5-homepage.png") center center / cover
+    no-repeat;
 }
 
 @media screen and (max-width: 767px) {
-    .nav-desk {
-        display: none !important;
-    }
+  .nav-desk {
+    display: none !important;
+  }
 
-    .nav-mobile {
-        display: flex !important;
-    }
+  .nav-mobile {
+    display: flex !important;
+  }
 }
 
 @media screen and (min-width: 768px) {
-    
-    .magazine {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
-        grid-row-gap: 15px;
-        grid-column-gap: 30px;
-        padding-top: 10px;
-    }
+  .magazine {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-row-gap: 15px;
+    grid-column-gap: 30px;
+    padding-top: 10px;
+  }
 
-    .h-md-0 {
-        height: 188px !important;
-        width: 188px !important;
-    }
+  .h-md-0 {
+    height: 188px !important;
+    width: 188px !important;
+  }
 
-    .mag-border {
-        border-bottom: solid 0.5px #d9d9d9;
-        padding-bottom: 10px;
-    }
+  .mag-border {
+    border-bottom: solid 0.5px #d9d9d9;
+    padding-bottom: 10px;
+  }
 
-    .editor {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
-    }
+  .editor {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+  }
 
-    .w-reset {
-        width: 100% !important;
-        height: auto !important;
-    }
+  .w-reset {
+    width: 100% !important;
+    height: auto !important;
+  }
 
-    .reset {
-        width: 50% !important;
-        height: auto !important;
-    }
+  .reset {
+    width: 50% !important;
+    height: auto !important;
+  }
 
-    .middle {
-        border-top: solid 0.5px #d9d9d9 !important;
-        border-bottom: solid 0.5px #d9d9d9 !important;
-    }
+  .middle {
+    border-top: solid 0.5px #d9d9d9 !important;
+    border-bottom: solid 0.5px #d9d9d9 !important;
+  }
 
-    .abs-img {
-        display: inline-block !important;
-        position: relative;
-        height: 228px;
-        width: 170px;
-    }
+  .abs-img {
+    display: inline-block !important;
+    position: relative;
+    height: 228px;
+    width: 170px;
+  }
 
-    .cover_b {
-        position: absolute;
-        left: 30%;
-        top: 10%;
-        width: 160px;
-        height: 217px;
-    }
+  .cover_b {
+    position: absolute;
+    left: 30%;
+    top: 10%;
+    width: 160px;
+    height: 217px;
+  }
 
-    .cover_a {
-        position: absolute;
-        left: 10%;
-        bottom: 0;
-        width: 160px;
-        height: 217px;
-    }
+  .cover_a {
+    position: absolute;
+    left: 10%;
+    bottom: 0;
+    width: 160px;
+    height: 217px;
+  }
 
-    .sub-container {
-        align-items: center;
-    }
+  .sub-container {
+    align-items: center;
+  }
 
-    .sub-text {
-        text-align: left !important;
-    }
+  .sub-text {
+    text-align: left !important;
+  }
 
-    .sub-text p {
-        font-size: 15px;
-    }
+  .sub-text p {
+    font-size: 15px;
+  }
 
-    .sub-text h5 {
-        font-size: 28px !important;
-    }
+  .sub-text h5 {
+    font-size: 28px !important;
+  }
 
-    .newsletter {
-        background-image: url('/assets/img/starting5-homepage.png');
-        background-repeat: no-repeat;
-        height: 230px !important;
-    }
-
-
+  .newsletter {
+    background-image: url("/assets/img/starting5-homepage.png");
+    background-repeat: no-repeat;
+    height: 230px !important;
+  }
 }
 
 @media screen and (min-width: 992px) {
-    .img-mag {
-        width: auto !important;
-        height: 320px !important;
-    }
+  .img-mag {
+    width: auto !important;
+    height: 320px !important;
+  }
 
-    .editor-large {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
-        gap: 2px;
-    }
+  .editor-large {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 2px;
+  }
 
-    .h-md-0 {
-        height: 235.98px !important;
-        width: 235.98px !important;
-    }
+  .h-md-0 {
+    height: 235.98px !important;
+    width: 235.98px !important;
+  }
 
-    .side-menu {
-        width: 650px;
-    }
+  .side-menu {
+    width: 650px;
+  }
 
-    .abs-img {
-        position: relative;
-    }
+  .abs-img {
+    position: relative;
+  }
 
-    .cover_b {
-        position: absolute;
-        left: 30%;
-        top: 10%;
-        width: 160px !important;
-        height: 217px;
-    }
+  .cover_b {
+    position: absolute;
+    left: 30%;
+    top: 10%;
+    width: 160px !important;
+    height: 217px;
+  }
 
-    .cover_a {
-        position: absolute;
-        left: 10%;
-        bottom: 0;
-        width: 160px !important;
-        height: 217px;
-    }
+  .cover_a {
+    position: absolute;
+    left: 10%;
+    bottom: 0;
+    width: 160px !important;
+    height: 217px;
+  }
 
-    .sub-sec {
-        height: 600px !important;
-    }
+  .sub-sec {
+    height: 600px !important;
+  }
 
-    .w-35 {
-        width: 45%;
-    }
+  .w-35 {
+    width: 45%;
+  }
 
-    .nav-top {
-        height: 84px;
-    }
+  .nav-top {
+    height: 84px;
+  }
 
-    .logo-desk {
-        width: auto;
-        height: 60px;
-    }
+  .logo-desk {
+    width: auto;
+    height: 60px;
+  }
 
+  .newsletter {
+    background-image: url("/assets/img/starting5-homepage.png");
+    background-repeat: no-repeat;
+    height: 300px !important;
+  }
 
-    .newsletter {
-        background-image: url('/assets/img/starting5-homepage.png');
-        background-repeat: no-repeat;
-        height: 300px !important;
+  .large-screen {
+    height: 400px;
+    width: 400px;
+  }
 
-    }
+  .start {
+    height: 350px !important;
+    width: auto;
+  }
 
-    .large-screen {
-        height: 400px;
-        width: 400px;
-
-
-    }
-
-    .start {
-        height: 350px !important;
-        width: auto;
-    }
-
-    .input-button {
-        width: 100%;
-    }
+  .input-button {
+    width: 100%;
+  }
 }
