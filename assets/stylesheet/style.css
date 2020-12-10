@@ -285,4 +285,8 @@ p {
   .input-button {
     width: 100%;
   }
+
+  .border-news{
+    border: none !important;
+  }
 }
