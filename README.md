@@ -13,7 +13,7 @@
 
  
 
-# Technologies used.
+# Built With
 
  The project was designed entirely using HTML and CSS.
  The page was created and made responsive to various display sizes using "mobile first" approach with two break points, 768px (medium) and 992px (large).
