@@ -1,9 +1,9 @@
-p{
+p {
     font-size: 13px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.ms-p{
+.ms-p {
     line-height: 16px;
 }
 
@@ -12,20 +12,20 @@ p{
     line-height: 20px;
 }
 
-.section-header{
-    color: rgba(3,3,3,.4);
+.section-header {
+    color: rgba(3, 3, 3, .4);
     font-size: 16px;
 }
 
-.bg-secondary{
+.bg-secondary {
     background: #f4f5f6 !important;
 }
 
-.ff-1{
+.ff-1 {
     font-family: 'Roboto Condensed', sans-serif;
 }
 
-.ff-2{
+.ff-2 {
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -34,12 +34,12 @@ p{
     background-color: #f72210 !important;
 }
 
-.text-danger{
+.text-danger {
     color: #f72210 !important;
 }
 
 
-.nav-links{
+.nav-links {
     display: none;
 }
 
@@ -48,7 +48,7 @@ p{
     bottom: 0;
 }
 
-.btn-warning{
+.btn-warning {
     background-color: #ffe400 !important;
 }
 
@@ -57,15 +57,15 @@ p{
     color: #000 !important;
 }
 
-.w-35{
-    width:35%;
+.w-35 {
+    width: 35%;
 }
 
-.hf-1{
+.hf-1 {
     height: 170px !important;
 }
 
-.vs{
+.vs {
     background-color: #000;
     color: #fff;
     border-radius: 100%;
@@ -73,56 +73,56 @@ p{
     bottom: -33px;
 }
 
-.debate-hr{
+.debate-hr {
     border-top: solid 1px #dee2e6;
     border-bottom: solid 1px #dee2e6;
     height: 1px;
 }
 
-.abs-img{
+.abs-img {
     margin: 0 auto;
     position: relative;
-    height:228px;
-    width:170px;
+    height: 228px;
+    width: 170px;
 }
 
-.cover_b{
+.cover_b {
     position: absolute;
     left: 20%;
     top: 10%;
-    width:160px;
+    width: 160px;
     height: 217px;
 }
 
-.cover_a{
+.cover_a {
     position: absolute;
     left: -20%;
     bottom: 0;
-    width:160px;
+    width: 160px;
     height: 217px;
 }
 
-.sub-text h5{
+.sub-text h5 {
     margin-top: 20px;
 }
 
- .newsletter{
-     background: url('/assets/img/starting5-homepage.png') center center / cover no-repeat;
-    
-} 
+.newsletter {
+    background: url('/assets/img/starting5-homepage.png') center center / cover no-repeat;
 
-@media screen and (max-width: 767px){
-    .nav-desk{
+}
+
+@media screen and (max-width: 767px) {
+    .nav-desk {
         display: none !important;
     }
 
-    .nav-mobile{
+    .nav-mobile {
         display: flex !important;
     }
 }
 
-@media screen and (min-width: 768px){
-   
+@media screen and (min-width: 768px) {
+    
     .magazine {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -163,42 +163,42 @@ p{
         border-bottom: solid 0.5px #d9d9d9 !important;
     }
 
-    .abs-img{
+    .abs-img {
         display: inline-block !important;
         position: relative;
-        height:228px;
-        width:170px;
+        height: 228px;
+        width: 170px;
     }
 
-    .cover_b{
+    .cover_b {
         position: absolute;
         left: 30%;
         top: 10%;
-        width:160px;
+        width: 160px;
         height: 217px;
     }
 
-    .cover_a{
+    .cover_a {
         position: absolute;
         left: 10%;
         bottom: 0;
-        width:160px;
+        width: 160px;
         height: 217px;
     }
 
-    .sub-container{
+    .sub-container {
         align-items: center;
     }
-    
-    .sub-text{
+
+    .sub-text {
         text-align: left !important;
     }
 
-    .sub-text p{
+    .sub-text p {
         font-size: 15px;
     }
 
-    .sub-text h5{
+    .sub-text h5 {
         font-size: 28px !important;
     }
 
@@ -233,11 +233,11 @@ p{
         width: 650px;
     }
 
-    .abs-img{
+    .abs-img {
         position: relative;
     }
 
-    .cover_b{
+    .cover_b {
         position: absolute;
         left: 30%;
         top: 10%;
@@ -245,15 +245,15 @@ p{
         height: 217px;
     }
 
-    .cover_a{
+    .cover_a {
         position: absolute;
         left: 10%;
         bottom: 0;
         width: 160px !important;
         height: 217px;
     }
-    
-    .sub-sec{
+
+    .sub-sec {
         height: 600px !important;
     }
 
@@ -261,36 +261,36 @@ p{
         width: 45%;
     }
 
-    .nav-top{
-       height: 84px;
+    .nav-top {
+        height: 84px;
     }
-    
-    .logo-desk{
+
+    .logo-desk {
         width: auto;
-        height:60px;
+        height: 60px;
     }
 
-     
-   .newsletter {
-    background-image: url('/assets/img/starting5-homepage.png');
-    background-repeat: no-repeat;
-    height: 300px !important;
-    
-} 
 
-   .large-screen {
-       height: 400px;
-       width: 400px;
-       
+    .newsletter {
+        background-image: url('/assets/img/starting5-homepage.png');
+        background-repeat: no-repeat;
+        height: 300px !important;
 
-   }
-   
-   .start {
-       height: 350px !important;
-       width: auto;
-   }
-   
-   .input-button {
-       width: 100%;
-   }
+    }
+
+    .large-screen {
+        height: 400px;
+        width: 400px;
+
+
+    }
+
+    .start {
+        height: 350px !important;
+        width: auto;
+    }
+
+    .input-button {
+        width: 100%;
+    }
 }
