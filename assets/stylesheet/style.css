@@ -90,9 +90,10 @@ p{
     left: 170px;
 }
 
-.newsletter{
-    background: url('/assets/img/starting5-homepage.png') center center / cover no-repeat;
-}
+/* .newsletter{
+    /* background: url('/assets/img/starting5-homepage.png') center center / cover no-repeat; */
+    
+} */
 
 @media screen and (max-width: 767px){
     .nav-desk{
@@ -241,4 +242,26 @@ p{
         height:60px;
     }
 
+    
+   .newsletter {
+    background-image: url('/assets/img/starting5-homepage.png');
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+} 
+
+/* 
+.newsletter {
+    width: 30%;
+    height: 500px;
+    flex: none;
+  }
+  
+.newsletter img {
+    width: 48%;
+    max-width: 191px;
+    height: 100%;
+  } */
+   
 }
