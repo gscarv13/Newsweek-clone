@@ -105,7 +105,7 @@ p {
 }
 
 .newsletter {
-  background-image: 
+  background: 
   url("/assets/img/starting5-homepage.png") center center / cover
     no-repeat;
 }
