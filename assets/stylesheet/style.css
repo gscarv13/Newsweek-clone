@@ -90,10 +90,10 @@ p{
     left: 170px;
 }
 
-/* .newsletter{
-    /* background: url('/assets/img/starting5-homepage.png') center center / cover no-repeat; */
+ .newsletter{
+     background: url('/assets/img/starting5-homepage.png') center center / cover no-repeat;
     
-} */
+} 
 
 @media screen and (max-width: 767px){
     .nav-desk{
@@ -192,7 +192,44 @@ p{
         border-bottom: solid 0.5px #d9d9d9 !important;
     }
 
+    .abs-img{
+        display: inline-block !important;
+        position: relative;
+        height:228px;
+        width:170px;
+    }
+
+    .cover_b{
+        position: absolute;
+        left: 30%;
+        top: 10%;
+        width:50%;
+        height: auto;
+    }
+
+    .cover_a{
+        position: absolute;
+        left: 10%;
+        bottom: 0;
+        width: 58%;
+        height: auto;
+    }
+
+    .sub-container{
+        align-items: center;
+    }
     
+    .sub-text{
+        text-align: left !important;
+    }
+
+    .sub-text p{
+        font-size: 15px;
+    }
+
+    .sub-text h5{
+        font-size: 28px !important;
+    }
 
 
 }
