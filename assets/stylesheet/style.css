@@ -112,9 +112,17 @@ p {
     no-repeat;
 }
 
-@media screen and (max-width: 767px) {
-  /* Without the important the navbar breaks on mobile view, d-sm-none does not work */
+.w-reset {
+  width: 100%;
+  height: 100%;
+}
 
+.reset{
+  width: 50%;
+  height: 50%;
+}
+
+@media screen and (max-width: 767px) {
   .nav-desk {
     display: none !important;
   }
@@ -122,23 +130,17 @@ p {
   .nav-mobile {
     display: flex;
   }
+
+  .magazine-images{
+    width: 100%;
+    height: 100%;
+  }
 }
 
 @media screen and (min-width: 768px) {
-  .magazine {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-row-gap: 15px;
-    grid-column-gap: 30px;
-    padding-top: 10px;
-  }
-
-  /* Removing the important from this section will break the layout */
-
   .magazine-images {
-    height: 188px !important;
-    width: 188px !important;
+    height: 188px;
+    width: 188px;
   }
 
   .mag-border {
@@ -152,18 +154,16 @@ p {
     grid-template-rows: 1fr 1fr 1fr 1fr;
   }
 
-  /* Removing the important from this section will break the layout */
 
   .w-reset {
-    width: 100% !important;
-    height: auto !important;
+    width: 100%;
+    height: auto;
   }
 
-  /* Removing the important from this section will break the layout */
 
   .reset {
-    width: 50% !important;
-    height: auto !important;
+    width: 50%;
+    height: auto;
   }
 
   .middle {
@@ -217,11 +217,9 @@ p {
 }
 
 @media screen and (min-width: 992px) {
-  /* Removing the important from this section will break the layout */
-
   .img-mag {
-    width: auto !important;
-    height: 320px !important;
+    width: auto;
+    height: 320px;
   }
 
   .editor-large {
@@ -239,13 +237,15 @@ p {
     position: relative;
   }
 
-  /* Removing the important from this section will break the layout */
+  .w-35 {
+    width: 45%;
+  }
 
   .cover_b {
     position: absolute;
     left: 30%;
     top: 10%;
-    width: 160px !important;
+    width: 160px;
     height: 217px;
   }
 
@@ -253,12 +253,8 @@ p {
     position: absolute;
     left: 10%;
     bottom: 0;
-    width: 160px !important;
+    width: 160px;
     height: 217px;
-  }
-
-  .w-35 {
-    width: 45%;
   }
 
   .nav-top {
@@ -290,9 +286,7 @@ p {
     width: 100%;
   }
 
-  /* Removing the important from this section will break the layout */
-
   .border-news {
-    border: none !important;
+    border: none;
   }
 }
