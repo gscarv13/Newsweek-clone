@@ -1,0 +1,300 @@
+p {
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.ms-p {
+  line-height: 16px;
+}
+
+.lh {
+  font-size: 17px;
+  line-height: 20px;
+}
+
+.section-header {
+  color: rgba(3, 3, 3, 0.4);
+  font-size: 16px;
+}
+
+.bg-clear-white {
+  background: #f4f5f6;
+}
+
+.ff-1 {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.ff-2 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.bg-main,
+.btn-main {
+  background-color: #f72210;
+  color: #fff;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.text-main {
+  color: #f72210;
+}
+
+.nav-links {
+  display: none;
+}
+
+.position-relative a {
+  left: 0;
+  bottom: 0;
+}
+
+.btn-yellow {
+  background-color: #ffe400;
+}
+
+.text-pure-black {
+  color: #000;
+}
+
+.w-35 {
+  width: 35%;
+}
+
+.hf-1 {
+  height: 170px;
+}
+
+.vs {
+  background-color: #000;
+  color: #fff;
+  border-radius: 100%;
+  left: 45%;
+  bottom: -33px;
+}
+
+.debate-hr {
+  border-top: solid 1px #dee2e6;
+  border-bottom: solid 1px #dee2e6;
+  height: 1px;
+}
+
+.abs-img {
+  margin: 0 auto;
+  position: relative;
+  height: 228px;
+  width: 170px;
+}
+
+.cover_b {
+  position: absolute;
+  left: 20%;
+  top: 10%;
+  width: 160px;
+  height: 217px;
+}
+
+.cover_a {
+  position: absolute;
+  left: -20%;
+  bottom: 0;
+  width: 160px;
+  height: 217px;
+}
+
+.sub-text h5 {
+  margin-top: 20px;
+}
+
+.newsletter {
+  background:
+    url("../img/starting5-homepage.png") center center / cover
+    no-repeat;
+}
+
+.w-reset {
+  width: 100%;
+  height: 100%;
+}
+
+.reset {
+  width: 50%;
+  height: 50%;
+}
+
+@media screen and (max-width: 767px) {
+  .nav-desk {
+    display: none;
+  }
+
+  .nav-mobile {
+    display: flex;
+  }
+
+  .magazine-images {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .magazine-images {
+    height: 188px;
+    width: 188px;
+  }
+
+  .mag-border {
+    border-bottom: solid 0.5px #d9d9d9;
+    padding-bottom: 10px;
+  }
+
+  .editor {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+  }
+
+  .w-reset {
+    width: 100%;
+    height: auto;
+  }
+
+  .reset {
+    width: 50%;
+    height: auto;
+  }
+
+  .middle {
+    border-top: solid 0.5px #d9d9d9;
+    border-bottom: solid 0.5px #d9d9d9;
+  }
+
+  .abs-img {
+    position: relative;
+    height: 228px;
+    width: 170px;
+  }
+
+  .cover_b {
+    position: absolute;
+    left: 30%;
+    top: 10%;
+    width: 160px;
+    height: 217px;
+  }
+
+  .cover_a {
+    position: absolute;
+    left: 10%;
+    bottom: 0;
+    width: 160px;
+    height: 217px;
+  }
+
+  .sub-container {
+    align-items: center;
+  }
+
+  .sub-text {
+    text-align: left;
+  }
+
+  .sub-text p {
+    font-size: 15px;
+  }
+
+  .sub-text h5 {
+    font-size: 28px;
+  }
+
+  .newsletter {
+    background-image: url("../img/starting5-homepage.png");
+    background-repeat: no-repeat;
+    height: 230px;
+  }
+
+  .nav-desk {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .img-mag {
+    width: auto;
+    height: 320px;
+  }
+
+  .editor-large {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 2px;
+  }
+
+  .side-menu {
+    width: 650px;
+  }
+
+  .abs-img {
+    position: relative;
+  }
+
+  .w-35 {
+    width: 45%;
+  }
+
+  .cover_b {
+    position: absolute;
+    left: 30%;
+    top: 10%;
+    width: 160px;
+    height: 217px;
+  }
+
+  .cover_a {
+    position: absolute;
+    left: 10%;
+    bottom: 0;
+    width: 160px;
+    height: 217px;
+  }
+
+  .nav-top {
+    height: 84px;
+  }
+
+  .logo-desk {
+    width: auto;
+    height: 60px;
+  }
+
+  .newsletter {
+    background-image: url("../img/starting5-homepage.png");
+    background-repeat: no-repeat;
+    height: 300px;
+  }
+
+  .large-screen {
+    height: 400px;
+    width: 400px;
+  }
+
+  .start {
+    height: 350px;
+    width: auto;
+  }
+
+  .input-button {
+    width: 100%;
+  }
+
+  .border-news {
+    border: none;
+  }
+
+  .nav-desk {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+}
