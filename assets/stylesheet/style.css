@@ -138,6 +138,15 @@ p {
 }
 
 @media screen and (min-width: 768px) {
+  .magazine {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-row-gap: 15px;
+    grid-column-gap: 30px;
+    padding-top: 10px;
+  }
+
   .magazine-images {
     height: 188px;
     width: 188px;
