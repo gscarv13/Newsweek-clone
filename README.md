@@ -45,7 +45,7 @@ To get a local copy up and running follow these simple example steps:
 - linkedin: [George Gbenle](https://www.linkedin.com/in/george-g-5414091b7/)
 
 
-👤 **Gustavo Silva de Carvalho**
+👤 **Gustavo Carvalho**
 
 - GitHub: [@gscarv13](https://github.com/gscarv13)
 - Twitter: [@Gscarv13](https://twitter.com/Gscarv13)
